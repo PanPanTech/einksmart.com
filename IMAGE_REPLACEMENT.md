@@ -28,10 +28,22 @@ Current keys:
 - `scenarioEducation`
 - `scenarioRetail`
 - `partnerVisual`
+- `materialDetail`
+- `frameEdge`
+
+Current production-style assets now in use:
+
+- `magirealm-blue-gallery.png`: homepage hero
+- `magirealm-living-room.png`: main product-in-space visual
+- `magirealm-concrete-lobby.png`: gallery / lobby scenario
+- `magirealm-neutral-room.png`: education / home scenario
+- `magirealm-fireplace-room.png`: hospitality / retail scenario
+- `magirealm-material-detail.png`: fabric and material close-up
+- `magirealm-frame-edge.png`: frame corner detail
+- `magirealm-black-frame.png`: product angle visual
 
 Recommended sizes:
 
 - Hero images: 2400 x 1400 or larger
 - Scenario images: 1600 x 1000
 - Diagrams: 1800 x 1000
-

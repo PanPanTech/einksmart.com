@@ -10,17 +10,18 @@
   - diagram*: 1800 x 1000
 */
 window.MagiRealmAssets = {
-  heroCn: "../assets/images/concept-cn.png",
-  heroEn: "../assets/images/concept-en.png",
+  heroCn: "../assets/images/magirealm-blue-gallery.png",
+  heroEn: "../assets/images/magirealm-blue-gallery.png",
   diagramCn: "../assets/images/concept-cn.png",
   diagramEn: "../assets/images/concept-en.png",
   technologyCn: "../assets/images/tech-cn.png",
   technologyEn: "../assets/images/tech-en.png",
-  productFrame: "../assets/images/concept-en.png",
-  scenarioHotel: "../assets/images/concept-cn.png",
-  scenarioGallery: "../assets/images/concept-en.png",
-  scenarioEducation: "../assets/images/tech-cn.png",
-  scenarioRetail: "../assets/images/concept-cn.png",
-  partnerVisual: "../assets/images/concept-en.png"
+  productFrame: "../assets/images/magirealm-black-frame.png",
+  scenarioHotel: "../assets/images/magirealm-living-room.png",
+  scenarioGallery: "../assets/images/magirealm-concrete-lobby.png",
+  scenarioEducation: "../assets/images/magirealm-neutral-room.png",
+  scenarioRetail: "../assets/images/magirealm-fireplace-room.png",
+  partnerVisual: "../assets/images/magirealm-material-detail.png",
+  materialDetail: "../assets/images/magirealm-material-detail.png",
+  frameEdge: "../assets/images/magirealm-frame-edge.png"
 };
-
