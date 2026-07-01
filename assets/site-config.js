@@ -1,15 +1,18 @@
 /*
-  MagiRealm image replacement interface
+  einksmart image replacement interface
 
-  Replace any value below with your own production photos or renders.
+  Replace any value below with production photography or approved visuals.
   Keep the same keys and the website will update automatically.
+
+  Current visuals are treated as E-Ink optimized previews unless a page
+  explicitly uses verified product photography.
 
   Recommended future image sizes:
   - hero*: 2400 x 1400 or larger
   - scenario*: 1600 x 1000
-  - diagram*: 1800 x 1000
+  - diagram/technology*: 1800 x 1000
 */
-window.MagiRealmAssets = {
+window.EinksmartAssets = {
   heroCn: "../assets/images/magirealm-blue-gallery.png",
   heroEn: "../assets/images/magirealm-blue-gallery.png",
   diagramCn: "../assets/images/concept-cn.png",
@@ -25,3 +28,5 @@ window.MagiRealmAssets = {
   materialDetail: "../assets/images/magirealm-material-detail.png",
   frameEdge: "../assets/images/magirealm-frame-edge.png"
 };
+
+window.MagiRealmAssets = window.EinksmartAssets;

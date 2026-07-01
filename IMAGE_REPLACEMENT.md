@@ -1,23 +1,23 @@
-# Image Replacement Guide
+# einksmart Image Replacement Guide
 
-All MVP pages load images through `assets/site-config.js`.
+The site loads visual assets through `assets/site-config.js`.
 
-To replace placeholder visuals:
+Replace values in `window.EinksmartAssets` to update images without editing each HTML page.
 
-1. Put your production photos or renders in `assets/images/`.
-2. Open `assets/site-config.js`.
-3. Replace the value for the image key you want to update.
+## Current Rule
 
-Example:
+Current visuals should be treated as **E-Ink optimized previews** unless you replace them with verified product photography.
 
-```js
-window.MagiRealmAssets = {
-  heroCn: "../assets/images/real-hotel-room-frame.jpg",
-  heroEn: "../assets/images/real-product-hero.jpg"
-};
-```
+Do not label a visual as "real product photo" or "实拍" until the image is confirmed production or prototype photography.
 
-Current keys:
+## Recommended Sizes
+
+- `hero*`: 2400 x 1400 or larger
+- `scenario*`: 1600 x 1000
+- `diagram*` / `technology*`: 1800 x 1000
+- `productFrame`: 1600 x 1200
+
+## Asset Keys
 
 - `heroCn`, `heroEn`
 - `diagramCn`, `diagramEn`
@@ -31,19 +31,4 @@ Current keys:
 - `materialDetail`
 - `frameEdge`
 
-Current production-style assets now in use:
-
-- `magirealm-blue-gallery.png`: homepage hero
-- `magirealm-living-room.png`: main product-in-space visual
-- `magirealm-concrete-lobby.png`: gallery / lobby scenario
-- `magirealm-neutral-room.png`: education / home scenario
-- `magirealm-fireplace-room.png`: hospitality / retail scenario
-- `magirealm-material-detail.png`: fabric and material close-up
-- `magirealm-frame-edge.png`: frame corner detail
-- `magirealm-black-frame.png`: product angle visual
-
-Recommended sizes:
-
-- Hero images: 2400 x 1400 or larger
-- Scenario images: 1600 x 1000
-- Diagrams: 1800 x 1000
+Keep the keys stable so the static pages continue to resolve images.
