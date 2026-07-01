@@ -1,23 +1,59 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://einksmart.com/</loc>
+    <lastmod>2026-07-01</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://einksmart.com/zh-cn/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://einksmart.com/en/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://einksmart.com/" />
   </url>
-  <url><loc>https://einksmart.com/zh-cn/</loc></url>
-  <url><loc>https://einksmart.com/zh-cn/product.html</loc></url>
-  <url><loc>https://einksmart.com/zh-cn/solutions.html</loc></url>
-  <url><loc>https://einksmart.com/zh-cn/technology.html</loc></url>
-  <url><loc>https://einksmart.com/zh-cn/partners.html</loc></url>
-  <url><loc>https://einksmart.com/zh-cn/contact.html</loc></url>
-  <url><loc>https://einksmart.com/en/</loc></url>
-  <url><loc>https://einksmart.com/en/product.html</loc></url>
-  <url><loc>https://einksmart.com/en/solutions.html</loc></url>
-  <url><loc>https://einksmart.com/en/technology.html</loc></url>
-  <url><loc>https://einksmart.com/en/partners.html</loc></url>
-  <url><loc>https://einksmart.com/en/contact.html</loc></url>
+  <url>
+    <loc>https://einksmart.com/zh-cn/</loc>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
+    <loc>https://einksmart.com/zh-cn/product.html</loc>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
+    <loc>https://einksmart.com/zh-cn/solutions.html</loc>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
+    <loc>https://einksmart.com/zh-cn/technology.html</loc>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
+    <loc>https://einksmart.com/zh-cn/partners.html</loc>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
+    <loc>https://einksmart.com/zh-cn/contact.html</loc>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
+    <loc>https://einksmart.com/en/</loc>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
+    <loc>https://einksmart.com/en/product.html</loc>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
+    <loc>https://einksmart.com/en/solutions.html</loc>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
+    <loc>https://einksmart.com/en/technology.html</loc>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
+    <loc>https://einksmart.com/en/partners.html</loc>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
+    <loc>https://einksmart.com/en/contact.html</loc>
+    <lastmod>2026-07-01</lastmod>
+  </url>
 </urlset>
-
