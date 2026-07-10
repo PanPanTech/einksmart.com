@@ -597,6 +597,20 @@ a.card:hover {
   display: flex;
   flex-direction: column;
   min-height: 300px;
+  overflow: hidden;
+}
+
+.article-card-image {
+  width: calc(100% + 48px);
+  aspect-ratio: 16 / 10;
+  margin: -24px -24px 20px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--line);
+  transition: transform .28s ease;
+}
+
+.article-card:hover .article-card-image {
+  transform: scale(1.025);
 }
 
 .article-card .tag {
@@ -672,7 +686,22 @@ a.card:hover {
 
 .article-body {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 30px;
+  min-width: 0;
+}
+
+.table-scroll {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: auto;
+  border-radius: 8px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-scroll .table-lite {
+  min-width: 680px;
 }
 
 .article-body h2 {
@@ -1041,6 +1070,11 @@ textarea {
 
   .toc {
     position: static;
+  }
+
+  .article-layout {
+    grid-template-columns: minmax(0, 1fr);
+    min-width: 0;
   }
 
   .hero {
