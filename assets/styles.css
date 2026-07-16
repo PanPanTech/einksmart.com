@@ -1208,7 +1208,11 @@ textarea {
   text-decoration: none;
 }
 
-.footer-brand-row a:not(:last-child)::after {
+.footer-brand-row span {
+  color: rgba(255, 255, 255, .62);
+}
+
+.footer-brand-row span:not(:last-child)::after {
   content: "|";
   color: rgba(255, 255, 255, .22);
   margin: 0 10px;
