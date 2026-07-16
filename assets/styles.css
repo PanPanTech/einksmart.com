@@ -1188,8 +1188,21 @@ textarea {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.2fr repeat(3, minmax(0, .6fr));
+  grid-template-columns: 1.1fr repeat(4, minmax(0, .6fr));
   gap: 26px;
+}
+
+.footer-legal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px 26px;
+  margin-top: 28px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, .14);
+  color: rgba(255, 255, 255, .58);
+  font-size: 12px;
+  line-height: 1.6;
 }
 
 .site-footer a,
