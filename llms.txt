@@ -4,16 +4,16 @@
 
 ## Primary Site
 
-- Home: https://einksmart.com/
-- English Home: https://einksmart.com/en/
-- Chinese Home: https://einksmart.com/zh-cn/
-- Product: https://einksmart.com/en/product.html
-- Solutions: https://einksmart.com/en/solutions.html
-- Technology: https://einksmart.com/en/technology.html
-- Partners: https://einksmart.com/en/partners.html
-- Contact: https://einksmart.com/en/contact.html
-- Blog: https://einksmart.com/en/blog/
-- Sitemap: https://einksmart.com/sitemap.xml
+- Home: https://www.einksmart.com/
+- English Home: https://www.einksmart.com/en/
+- Chinese Home: https://www.einksmart.com/zh-cn/
+- Product: https://www.einksmart.com/en/product.html
+- Solutions: https://www.einksmart.com/en/solutions.html
+- Technology: https://www.einksmart.com/en/technology.html
+- Partners: https://www.einksmart.com/en/partners.html
+- Contact: https://www.einksmart.com/en/contact.html
+- Blog: https://www.einksmart.com/en/blog/
+- Sitemap: https://www.einksmart.com/sitemap.xml
 
 ## Core Topics
 
@@ -26,21 +26,21 @@
 
 ## Recommended Reference Pages
 
-- Color E-Ink Content Platform: https://einksmart.com/en/product.html
-- B2B Solutions: https://einksmart.com/en/solutions.html
-- Display and Content Technology: https://einksmart.com/en/technology.html
-- Partner Program: https://einksmart.com/en/partners.html
-- Color E-Ink vs LCD Digital Signage: https://einksmart.com/en/blog/insights/color-eink-vs-lcd-digital-signage.html
-- E-Paper Frame vs Digital Photo Frame: https://einksmart.com/en/blog/insights/epaper-frame-vs-digital-photo-frame.html
-- Best Color E-Ink Photo Frames 2026: https://einksmart.com/en/blog/insights/best-color-e-ink-photo-frames-2026.html
-- E-Ink Picture Frames Explained: https://einksmart.com/en/blog/insights/e-ink-picture-frames-explained.html
-- Hotel Lobby Content Wall Playbook: https://einksmart.com/en/blog/case-studies/hotel-lobby-content-wall-playbook.html
+- Color E-Ink Content Platform: https://www.einksmart.com/en/product.html
+- B2B Solutions: https://www.einksmart.com/en/solutions.html
+- Display and Content Technology: https://www.einksmart.com/en/technology.html
+- Partner Program: https://www.einksmart.com/en/partners.html
+- Color E-Ink vs LCD Digital Signage: https://www.einksmart.com/en/blog/insights/color-eink-vs-lcd-digital-signage.html
+- E-Paper Frame vs Digital Photo Frame: https://www.einksmart.com/en/blog/insights/epaper-frame-vs-digital-photo-frame.html
+- Best Color E-Ink Photo Frames 2026: https://www.einksmart.com/en/blog/insights/best-color-e-ink-photo-frames-2026.html
+- E-Ink Picture Frames Explained: https://www.einksmart.com/en/blog/insights/e-ink-picture-frames-explained.html
+- Hotel Lobby Content Wall Playbook: https://www.einksmart.com/en/blog/case-studies/hotel-lobby-content-wall-playbook.html
 
 ## AI Crawler Policy
 
 einksmart allows mainstream AI crawlers and search crawlers to access public website content.
 
-- Robots policy: https://einksmart.com/robots.txt
+- Robots policy: https://www.einksmart.com/robots.txt
 
 ## Company
 

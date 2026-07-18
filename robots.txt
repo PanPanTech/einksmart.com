@@ -34,4 +34,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://einksmart.com/sitemap.xml
+Sitemap: https://www.einksmart.com/sitemap.xml
