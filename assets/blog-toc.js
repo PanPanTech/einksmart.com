@@ -67,8 +67,106 @@
     targets.forEach((entry) => observer.observe(entry.target));
   }
 
+
+
+  function metaContent(selector) {
+    const node = document.querySelector(selector);
+    return node ? node.getAttribute("content") || "" : "";
+  }
+
+  function canonicalUrl() {
+    const canonical = document.querySelector('link[rel="canonical"]');
+    return canonical && canonical.href ? canonical.href : window.location.href.split("#")[0];
+  }
+
+  function sharePayload() {
+    const description = metaContent('meta[property="og:description"]') || metaContent('meta[name="description"]') || "";
+    return {
+      url: canonicalUrl(),
+      title: metaContent('meta[property="og:title"]') || document.title,
+      text: description,
+      description
+    };
+  }
+
+  function shareUrl(channel, payload) {
+    const url = encodeURIComponent(payload.url);
+    const title = encodeURIComponent(payload.title);
+    const text = encodeURIComponent((payload.title + (payload.description ? " - " + payload.description : "")).trim());
+    const body = encodeURIComponent(payload.title + "\n\n" + payload.url);
+    const routes = {
+      facebook: "https://www.facebook.com/sharer/sharer.php?u=" + url,
+      linkedin: "https://www.linkedin.com/sharing/share-offsite/?url=" + url,
+      x: "https://twitter.com/intent/tweet?url=" + url + "&text=" + title,
+      pinterest: "https://www.pinterest.com/pin/create/button/?url=" + url + "&description=" + text,
+      whatsapp: "https://wa.me/?text=" + text + "%20" + url,
+      telegram: "https://t.me/share/url?url=" + url + "&text=" + title,
+      vk: "https://vk.com/share.php?url=" + url + "&title=" + title,
+      email: "mailto:?subject=" + title + "&body=" + body
+    };
+    return routes[channel] || payload.url;
+  }
+
+  async function copyText(value) {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(value);
+      return;
+    }
+    const input = document.createElement("textarea");
+    input.value = value;
+    input.setAttribute("readonly", "");
+    input.style.position = "fixed";
+    input.style.top = "-9999px";
+    document.body.appendChild(input);
+    input.select();
+    document.execCommand("copy");
+    input.remove();
+  }
+
+  function setupArticleShare(share) {
+    const payload = sharePayload();
+    share.querySelectorAll("[data-share-channel]").forEach((link) => {
+      link.href = shareUrl(link.dataset.shareChannel, payload);
+    });
+
+    share.querySelectorAll('[data-share-action="native"]').forEach((button) => {
+      if (!navigator.share) {
+        button.hidden = true;
+        return;
+      }
+      button.addEventListener("click", async () => {
+        try {
+          await navigator.share(payload);
+        } catch (error) {
+          if (!error || error.name !== "AbortError") console.error("[share failed]", error);
+        }
+      });
+    });
+
+    share.querySelectorAll('[data-share-action="copy"]').forEach((button) => {
+      const label = button.querySelector(".share-text");
+      const original = label ? label.textContent : button.textContent;
+      button.addEventListener("click", async () => {
+        try {
+          await copyText(payload.url);
+          button.classList.add("is-copied");
+          if (label) label.textContent = button.dataset.copiedLabel || "Copied";
+          window.setTimeout(() => {
+            button.classList.remove("is-copied");
+            if (label) label.textContent = original;
+          }, 1800);
+        } catch (error) {
+          console.error("[copy link failed]", error);
+          window.prompt("Copy this article link:", payload.url);
+        }
+      });
+    });
+  }
+
   document.querySelectorAll(".toc").forEach((toc) => {
     upgradeLegacyToc(toc);
     if (toc.hasAttribute("data-toc")) setupToc(toc);
   });
+
+  document.querySelectorAll("[data-article-share]").forEach(setupArticleShare);
 })();
