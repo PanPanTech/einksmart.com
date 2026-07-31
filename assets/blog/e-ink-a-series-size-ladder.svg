@@ -1,0 +1,48 @@
+<svg viewBox="0 0 949 887" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ISO A-series ePaper size ladder from A4 to A0 with inch diagonals and resolutions">
+<style>.t{font-family:Georgia,serif}.s{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif}</style>
+<rect width="949" height="887" fill="#fbfcfa"/>
+<rect x="158" y="40.0" width="521.4" height="737.2" fill="none" stroke="#0b4c48" stroke-width="2.2" rx="3"/>
+<rect x="158" y="255.8" width="368.3" height="521.4" fill="none" stroke="#146e68" stroke-width="2.2" rx="3"/>
+<rect x="158" y="408.9" width="260.4" height="368.3" fill="none" stroke="#3f8a80" stroke-width="2.2" rx="3"/>
+<rect x="158" y="516.8" width="184.1" height="260.4" fill="none" stroke="#7fae9f" stroke-width="2.2" rx="3"/>
+<rect x="158" y="593.0" width="130.2" height="184.1" fill="none" stroke="#b9cfc2" stroke-width="2.2" rx="3"/>
+
+<text class="t" x="168" y="62.0" font-size="19" font-weight="700" fill="#0b4c48">A0</text>
+<text class="s" x="198" y="62.0" font-size="13" fill="#5f6866">57.0" diagonal</text>
+<text class="t" x="168" y="277.76" font-size="19" font-weight="700" fill="#146e68">A1</text>
+<text class="s" x="198" y="277.76" font-size="13" fill="#5f6866">40.5" diagonal</text>
+<text class="t" x="168" y="430.9" font-size="19" font-weight="700" fill="#3f8a80">A2</text>
+<text class="s" x="198" y="430.9" font-size="13" fill="#5f6866">28.5" diagonal</text>
+<text class="t" x="168" y="538.78" font-size="19" font-weight="700" fill="#7fae9f">A3</text>
+<text class="s" x="198" y="538.78" font-size="13" fill="#5f6866">20.2" diagonal</text>
+<text class="t" x="168" y="615.04" font-size="19" font-weight="700" fill="#b9cfc2">A4</text>
+<text class="s" x="198" y="615.04" font-size="13" fill="#5f6866">14.3" diagonal</text>
+<text class="s" x="705.42" y="48" font-size="12" font-weight="700" fill="#0b1215" letter-spacing="1">SIZE · RESOLUTION</text>
+<text class="t" x="705.42" y="78" font-size="15" font-weight="700" fill="#0b4c48">A0</text>
+<text class="s" x="735.42" y="78" font-size="13" fill="#0b1215">57.0"</text>
+<text class="s" x="783.42" y="78" font-size="12.5" fill="#5f6866">—</text>
+<text class="s" x="783.42" y="92" font-size="11" fill="#8b938f">panel / concept</text>
+<text class="t" x="705.42" y="110" font-size="15" font-weight="700" fill="#146e68">A1</text>
+<text class="s" x="735.42" y="110" font-size="13" fill="#0b1215">40.5"</text>
+<text class="s" x="783.42" y="110" font-size="12.5" fill="#5f6866">3,060 × 4,320</text>
+<text class="s" x="783.42" y="124" font-size="11" fill="#8b938f">131 ppi</text>
+<text class="t" x="705.42" y="142" font-size="15" font-weight="700" fill="#3f8a80">A2</text>
+<text class="s" x="735.42" y="142" font-size="13" fill="#0b1215">28.5"</text>
+<text class="s" x="783.42" y="142" font-size="12.5" fill="#5f6866">2,160 × 3,060</text>
+<text class="s" x="783.42" y="156" font-size="11" fill="#8b938f">131 ppi</text>
+<text class="t" x="705.42" y="174" font-size="15" font-weight="700" fill="#7fae9f">A3</text>
+<text class="s" x="735.42" y="174" font-size="13" fill="#0b1215">20.2"</text>
+<text class="s" x="783.42" y="174" font-size="12.5" fill="#5f6866">1,530 × 2,160</text>
+<text class="s" x="783.42" y="188" font-size="11" fill="#8b938f">131 ppi</text>
+<text class="t" x="705.42" y="206" font-size="15" font-weight="700" fill="#b9cfc2">A4</text>
+<text class="s" x="735.42" y="206" font-size="13" fill="#0b1215">14.3"</text>
+<text class="s" x="783.42" y="206" font-size="12.5" fill="#5f6866">—</text>
+<text class="s" x="783.42" y="220" font-size="11" fill="#8b938f">in development</text>
+<text class="t" x="40" y="60" font-size="15" font-weight="700" fill="#0b1215">ISO 216</text>
+<text class="s" x="40" y="80" font-size="12" fill="#5f6866">paper sizes</text>
+<text class="s" x="40" y="98" font-size="12" fill="#5f6866">aspect 1 : √2</text>
+<text class="s" x="40" y="122" font-size="11" fill="#8b938f">Each size is</text>
+<text class="s" x="40" y="136" font-size="11" fill="#8b938f">exactly half</text>
+<text class="s" x="40" y="150" font-size="11" fill="#8b938f">the one above.</text>
+<text class="s" x="40" y="869" font-size="10.5" fill="#8b938f">Data: Sharp Display Technology ePoster A-series specifications; ISO 216. Diagram: einksmart, 2026.</text>
+</svg>
