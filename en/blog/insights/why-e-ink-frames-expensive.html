@@ -23,6 +23,38 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon-180.png" sizes="180x180" />
     <link rel="stylesheet" href="../../../assets/styles.css" />
+    <style>
+      .expensive-frame-hero .article-hero-visual {
+        aspect-ratio: 1 / 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+      }
+
+      .expensive-frame-hero .article-hero-visual img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+      }
+
+      .article-body figure.figure-original-photo {
+        max-width: 560px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+
+      .article-body figure.figure-original-photo img {
+        width: auto;
+        max-width: 100%;
+        max-height: min(620px, 72vh);
+        height: auto;
+        margin: 0 auto;
+        object-fit: contain;
+      }
+    </style>
     <script src="/assets/blog-toc.js" defer></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Why Are E-Ink Art Frames So Expensive? A Manufacturer Breaks Down the Cost","description":"A colour E-Ink frame maker explains where the money actually goes: the display module is about 72% of the bill of materials, why panel cost outruns size, how it compares with LCD frames and framed prints, and when prices will fall.","datePublished":"2026-08-07","dateModified":"2026-08-07","author":{"@type":"Organization","name":"einksmart"},"publisher":{"@type":"Organization","name":"einksmart"},"image":"https://www.einksmart.com/assets/blog/e-ink-frame-cost-finished-wood-frame.jpg","mainEntityOfPage":"https://www.einksmart.com/en/blog/insights/why-e-ink-frames-expensive.html"}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.einksmart.com/en/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.einksmart.com/en/blog/"},{"@type":"ListItem","position":3,"name":"Insights","item":"https://www.einksmart.com/en/blog/insights/"},{"@type":"ListItem","position":4,"name":"Why E-Ink Frames Cost What They Do","item":"https://www.einksmart.com/en/blog/insights/why-e-ink-frames-expensive.html"}]}</script>
@@ -42,7 +74,7 @@
         <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span class="sep">/</span><a href="../">Blog</a><span class="sep">/</span><a href="./">Insights</a><span class="sep">/</span><span class="current">Why E-Ink Frames Cost What They Do</span></nav>
         <div class="article-hero-grid">
           <div><span class="tag">Insights</span><h1>Why Are E-Ink Art Frames So Expensive? A Manufacturer Breaks Down the Cost</h1><p class="article-meta">Published August 7, 2026 &middot; einksmart Insights &middot; 13 min read</p></div>
-          <figure class="article-hero-media"><div class="article-hero-visual"><img src="/assets/blog/e-ink-frame-cost-finished-wood-frame.jpg" width="1000" height="1000" alt="A finished colour E-Ink art frame in a wooden moulding displaying a photograph" fetchpriority="high" /></div><figcaption>A finished 13-inch colour E-Ink frame. Almost three quarters of what it costs to build is behind the glass. Image: einksmart production unit.</figcaption></figure>
+          <figure class="article-hero-media expensive-frame-hero"><div class="article-hero-visual"><img src="/assets/blog/e-ink-frame-cost-finished-wood-frame.jpg" width="1000" height="1000" alt="A finished colour E-Ink art frame in a wooden moulding displaying a photograph" fetchpriority="high" /></div><figcaption>A finished 13-inch colour E-Ink frame. Almost three quarters of what it costs to build is behind the glass. Image: einksmart production unit.</figcaption></figure>
         </div>
       </div></section>
       <section class="section"><div class="container article-layout">
@@ -70,7 +102,7 @@
           </table></div>
           <p class="source-note">Source: einksmart production bill of materials for a 13-inch colour E-Ink frame, 2026. Absolute costs and supplier quotations withheld.</p>
           <p>Two things surprise people about this table. First, <strong>the beautiful part of the product is the cheap part</strong>: real wood or machined aluminium, matboard and hardware together cost less than a quarter of the panel. Second, the battery &mdash; the component buyers assume is expensive because it delivers months of runtime &mdash; is a rounding error. Bistable displays need very little energy, so they need very little battery.</p>
-          <figure class="figure-narrow"><img src="/assets/blog/e-ink-display-module-bare-panel.jpg" width="753" height="1000" loading="lazy" alt="A bare colour E-Ink display module with ribbon cable, showing a photograph rendered on the panel" /><figcaption>This is the part you are actually buying: a bare colour ePaper module before any frame is built around it. Image: einksmart engineering sample.</figcaption></figure></section>
+          <figure class="figure-original-photo"><img src="/assets/blog/e-ink-display-module-bare-panel.jpg" width="753" height="1000" loading="lazy" alt="A bare colour E-Ink display module with ribbon cable, showing a photograph rendered on the panel" /><figcaption>This is the part you are actually buying: a bare colour ePaper module before any frame is built around it. Image: einksmart engineering sample.</figcaption></figure></section>
 
           <section id="why-panel"><h2>Why is the panel itself so expensive?</h2>
           <p><strong>Four structural reasons, none of which any brand can shortcut.</strong></p>
