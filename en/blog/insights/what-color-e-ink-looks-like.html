@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>What Colour E-Ink Actually Looks Like on Your Wall: Dithering, Grain and Light | einksmart</title>
+    <meta name="description" content="Colour E-Ink builds every image from six pigments, so the white is paper-white and close inspection shows fine dots. A manufacturer explains what that really looks like in a room, why photos can look sepia, and how light changes everything." />
+    <link rel="canonical" href="https://www.einksmart.com/en/blog/insights/what-color-e-ink-looks-like.html" />
+    <link rel="alternate" hreflang="en" href="https://www.einksmart.com/en/blog/insights/what-color-e-ink-looks-like.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="What Colour E-Ink Actually Looks Like on Your Wall: Dithering, Grain and Light" />
+    <meta property="og:description" content="Six pigments, fine dithering and paper-white whites &mdash; what colour ePaper honestly looks like before you buy one." />
+    <meta property="og:url" content="https://www.einksmart.com/en/blog/insights/what-color-e-ink-looks-like.html" />
+    <meta property="og:image" content="https://www.einksmart.com/assets/blog/color-e-ink-dithering-explained.svg" />
+    <meta property="og:image:alt" content="Diagram showing how six E-Ink pigments dither to form a full-colour image" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="What Colour E-Ink Actually Looks Like on Your Wall" />
+    <meta name="twitter:description" content="Six pigments, fine dithering and paper-white whites, explained honestly." />
+    <meta name="twitter:image" content="https://www.einksmart.com/assets/blog/color-e-ink-dithering-explained.svg" />
+    <link rel="icon" href="/assets/brand/google-search-icon-512.png" type="image/png" sizes="512x512" />
+    <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="icon" href="/assets/brand/favicon-16.png" type="image/png" sizes="16x16" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon-180.png" sizes="180x180" />
+    <link rel="stylesheet" href="../../../assets/styles.css" />
+    <style>
+      .colour-eink-hero .article-hero-visual {
+        aspect-ratio: 1 / 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+      }
+
+      .colour-eink-hero .article-hero-visual img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+      }
+
+      .article-hero-grid h1,
+      .article-hero .breadcrumbs .current {
+        display: block;
+        max-width: 100%;
+        overflow-wrap: anywhere;
+        word-break: normal;
+      }
+
+      .colour-eink-hero {
+        box-sizing: border-box;
+        margin: 0;
+        max-width: 100%;
+        min-width: 0;
+      }
+
+      @media (max-width: 919px) {
+        .article-hero .page-title {
+          width: calc(100% - 36px);
+          max-width: 330px;
+          margin: 0 auto;
+          overflow-x: hidden;
+        }
+
+        .article-hero-grid {
+          grid-template-columns: minmax(0, 1fr);
+          max-width: 330px;
+        }
+
+        .article-hero-grid > *,
+        .colour-eink-hero,
+        .colour-eink-hero .article-hero-visual {
+          box-sizing: border-box;
+          width: 100%;
+          max-width: 100%;
+          min-width: 0;
+        }
+
+        .colour-eink-hero .article-hero-visual img {
+          max-width: 100%;
+          max-height: 100%;
+        }
+
+        .article-hero .breadcrumbs .current {
+          display: none;
+        }
+
+        .mobile-title-break {
+          display: block;
+        }
+
+        .article-meta,
+        .article-layout,
+        .article-body,
+        .article-body > section,
+        .toc,
+        .related-content,
+        .article-share {
+          box-sizing: border-box;
+          max-width: 100%;
+          overflow-wrap: anywhere;
+        }
+
+        .article-layout {
+          width: calc(100% - 36px);
+          max-width: 330px;
+          margin-right: auto;
+          margin-left: auto;
+        }
+      }
+
+      @media (max-width: 520px) {
+        .article-hero {
+          overflow-x: hidden;
+        }
+
+        .article-hero .page-title,
+        .article-hero-grid,
+        .article-hero-grid > *,
+        .colour-eink-hero {
+          max-width: 100%;
+          min-width: 0;
+        }
+
+        .article-hero .page-title {
+          width: calc(100% - 36px);
+          margin: 0 auto;
+        }
+
+        .article-hero-grid,
+        .article-hero-grid > *,
+        .colour-eink-hero {
+          width: 100%;
+        }
+
+        .article-hero-grid h1 {
+          max-width: calc(100vw - 36px);
+          font-size: clamp(26px, 8vw, 32px);
+          line-height: 1.14;
+          word-break: break-word;
+        }
+
+        .article-hero .breadcrumbs {
+          max-width: calc(100vw - 36px);
+          overflow-wrap: anywhere;
+        }
+      }
+    </style>
+    <script src="/assets/blog-toc.js" defer></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"What Colour E-Ink Actually Looks Like on Your Wall: Dithering, Grain and Light","description":"Colour E-Ink builds every image from six pigments, so the white is paper-white and close inspection shows fine dots. A manufacturer explains what that really looks like in a room, why photos can look sepia, and how light changes everything.","datePublished":"2026-09-12","dateModified":"2026-09-12","author":{"@type":"Organization","name":"einksmart"},"publisher":{"@type":"Organization","name":"einksmart"},"image":"https://www.einksmart.com/assets/blog/e-ink-frame-cost-finished-wood-frame.jpg","mainEntityOfPage":"https://www.einksmart.com/en/blog/insights/what-color-e-ink-looks-like.html"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.einksmart.com/en/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.einksmart.com/en/blog/"},{"@type":"ListItem","position":3,"name":"Insights","item":"https://www.einksmart.com/en/blog/insights/"},{"@type":"ListItem","position":4,"name":"What Colour E-Ink Looks Like","item":"https://www.einksmart.com/en/blog/insights/what-color-e-ink-looks-like.html"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+      {"@type":"Question","name":"Why does my colour E-Ink frame show visible dots?","acceptedAnswer":{"@type":"Answer","text":"Because the panel has only six pigments and builds every other colour by dithering them in fine patterns. At close range you see the pattern; at normal viewing distance your eye blends it into continuous tone, exactly as it does with a printed halftone."}},
+      {"@type":"Question","name":"Why do my photos look sepia or washed out on an e-ink frame?","acceptedAnswer":{"@type":"Answer","text":"Two causes. The six-pigment gamut compresses saturated blues and cyans toward warmer neighbours, and the panel white is paper-white at about 34% reflectance rather than backlit white. Good rendering software reduces the effect considerably; poor software makes it obvious."}},
+      {"@type":"Question","name":"Is the white on colour E-Ink really grey?","acceptedAnswer":{"@type":"Answer","text":"It is paper-white, not backlit-white. Spectra 6 panels reflect about 34% of incident light, which is closer to newsprint than to coated art paper. Placing a bright white matboard directly beside the panel makes that difference far more obvious."}},
+      {"@type":"Question","name":"Does room lighting change how an e-ink frame looks?","acceptedAnswer":{"@type":"Answer","text":"Completely. ePaper is reflective, so it has no brightness of its own. In daylight or under a picture light it looks rich; in a dim room it looks flat, exactly like a printed picture in the same conditions."}},
+      {"@type":"Question","name":"Do smaller e-ink frames look grainier than large ones?","acceptedAnswer":{"@type":"Answer","text":"They can look grainier relative to their size because you hold or view them closer. Grain visibility is a function of viewing distance versus pixel density, not of panel size alone."}},
+      {"@type":"Question","name":"What should I ask a vendor before buying?","acceptedAnswer":{"@type":"Answer","text":"Ask for an unedited close-up photograph of your own image on their panel, taken in ordinary room light. Marketing renders are made in software; a phone photo of a real panel is the only honest evidence."}}
+    ]}</script>
+  </head>
+  <body>
+<header class="site-header"><nav class="nav"><a class="brand" href="../../"><img class="brand-logo" src="/assets/brand/header-lockup.svg" alt="einksmart Color E-Ink Content Platform" /></a><div class="nav-links"><a href="../../product.html">Product</a><a href="../../solutions.html">Solutions</a><a href="../../technology.html">Technology</a><a href="../../partners.html">Partners</a><a class="active" href="../">Blog</a><a href="../../contact.html">Contact</a></div><div class="nav-actions"><a class="btn teal" href="../../partners.html">Become a Partner</a></div></nav></header>
+    <main>
+      <section class="article-hero"><div class="page-title">
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span class="sep">/</span><a href="../">Blog</a><span class="sep">/</span><a href="./">Insights</a><span class="sep">/</span><span class="current">What Colour E-Ink Looks Like</span></nav>
+        <div class="article-hero-grid">
+          <div><span class="tag">Insights</span><h1>What Colour E-Ink <span class="mobile-title-break">Actually Looks Like</span> <span class="mobile-title-break">on Your Wall:</span> <span class="mobile-title-break">Dithering, Grain</span> <span class="mobile-title-break">and Light</span></h1><p class="article-meta">Published September 12, 2026 &middot; einksmart Insights &middot; 13 min read</p></div>
+          <figure class="article-hero-media colour-eink-hero"><div class="article-hero-visual"><img src="/assets/blog/e-ink-frame-cost-finished-wood-frame.jpg" width="1000" height="1000" alt="A colour E-Ink art frame in a wooden moulding displaying a photograph of a cat" fetchpriority="high" /></div><figcaption>A real photograph on a real panel, shot in ordinary room light. This is the reference point &mdash; not a marketing render. Image: einksmart production unit.</figcaption></figure>
+        </div>
+      </div></section>
+      <section class="section"><div class="container article-layout">
+        <article class="article-body">
+
+          <section class="answer-summary" id="answer"><h2>Short answer</h2><p><strong>Colour E-Ink builds every image out of just six pigments, so three things are true and none of them are defects: close up you can see a fine dot pattern, the white is paper-white rather than backlit-white, and the whole picture gets better or worse with the light in your room.</strong> It looks like a good print, because optically it behaves like one. If you are expecting a phone screen on a wall, you will be disappointed &mdash; and that mismatch, not the technology, is what drives most negative first impressions in this category.</p></section>
+
+          <section class="key-facts" id="facts"><h2>Key facts</h2><ul>
+            <li>Spectra 6 panels use six pigments: black, white, red, yellow, green and blue. Everything else is dithered from those.</li>
+            <li>Reflectance is about 34% &mdash; nearer newsprint than coated art paper, and nothing like a backlit screen.</li>
+            <li>Contrast ratio is about 22:1, against roughly 100:1 for a typical print and far higher for an LCD in a dark room.</li>
+            <li>In buyer comments we analysed, image quality was the sixth most-raised theme &mdash; and most of those comments were about expectations, not faults.</li>
+            <li>Grain visibility depends on viewing distance versus pixel density, not on panel size by itself.</li>
+          </ul></section>
+
+          <section id="six"><h2>Six pigments, and why that is the whole story</h2>
+          <p><strong>An LCD makes colour by mixing light; ePaper makes colour by moving solid pigment particles.</strong> A Spectra 6 panel holds six coloured pigments in each microcapsule layer and drives the right ones to the surface. There is no seventh colour available anywhere on the panel &mdash; so a sunset, a skin tone and a navy jacket are all assembled from patterns of those six, exactly the way a printing press builds a photograph out of four inks.</p>
+          <figure><img src="/assets/blog/color-e-ink-dithering-explained.svg" width="980" height="366" loading="lazy" alt="Three-step diagram: six pigments, a magnified dithered pattern, and the same image seen as continuous tone from a distance" /><figcaption>How a six-pigment panel renders a photograph: pigments, dither pattern, then continuous tone at viewing distance. Diagram: einksmart.</figcaption></figure>
+          <p>One buyer in a public campaign comment section explained this to another buyer better than most vendors do: the full colour, he wrote, &ldquo;comes from dithering of 6 base colors. There are always be dots.&rdquo; <strong>He was right, and the fact that a customer had to say it is a failure of the industry&rsquo;s marketing, not of the panel.</strong></p>
+          <h3>So will I see the dots?</h3>
+          <p><strong>At arm&rsquo;s length on a small frame, if you look for them, yes. At normal wall distance, no.</strong> This is the same halftone logic as print: hold a magazine photograph six inches from your eye and the rosette pattern is obvious; put it on a wall and it is a photograph. The threshold is viewing distance against pixel density, which we worked through in <a href="./large-e-ink-displays-compared.html">our size guide</a> &mdash; at 131 ppi the dots merge beyond about 0.67 m.</p></section>
+
+          <section id="white"><h2>Why the white looks grey</h2>
+          <p><strong>Because it is paper-white, and paper-white is darker than you remember.</strong> A colour ePaper panel reflects roughly 34% of the light that falls on it. Coated art paper returns far more; a backlit screen generates its own light and is not comparable at all. Your eye has no absolute reference for white &mdash; it judges by what is next to it.</p>
+          <figure><img src="/assets/blog/e-ink-reflectance-contrast-vs-paper-lcd.png" width="1320" height="520" loading="lazy" alt="Two bar charts comparing reflectance and contrast ratio of colour ePaper against paper and backlit LCD" /><figcaption>ePaper figures from Sharp ePoster A-series specifications (34% reflectance, 22:1 contrast, both @SCE). Paper and LCD values are typical industry ranges for comparison. Chart: einksmart.</figcaption></figure>
+          <h3>The matboard trap</h3>
+          <p><strong>If you frame a colour ePaper panel behind a bright white mount, you have put a reference white directly beside a 34% white &mdash; and the panel will look grey by comparison.</strong> One buyer described exactly this, noting that the white mat &ldquo;only emphasizes how gray the default background of the picture is&rdquo;. The fix is not a better panel; it is a warmer, softer mount, or none at all. This is ordinary framing craft: picture framers have always chosen mount colour against the artwork, and an ePaper panel is simply another artwork with its own white point.</p></section>
+
+          <section id="sepia"><h2>Why photographs can come out warm or &ldquo;sepia&rdquo;</h2>
+          <p><strong>Two separate causes, and only one of them is fixable by the vendor.</strong></p>
+          <ul>
+            <li><strong>Gamut compression.</strong> With six primaries, saturated cyans, magentas and deep blues have no exact match. A rendering engine must approximate them with neighbouring pigments, and the safest approximations tend to run warm. A blue sky becomes slightly dusty; a teal becomes closer to grey-green.</li>
+            <li><strong>Poor dithering and colour mapping.</strong> This is software, and it varies enormously between brands using identical panels. A good pipeline preserves skin tones and lets the sky stay a sky; a lazy one posterises gradients and pushes everything toward sepia. One buyer asked publicly whether he was &ldquo;the only one&rdquo; seeing a sepia cast across all his photos &mdash; he was not, and the panel was not the problem.</li>
+          </ul>
+          <p>This is the single largest quality difference between products built on the same glass, and it is why we treat the rendering pipeline as a core product rather than a utility &mdash; the approach is described on <a href="../../technology.html">our technology page</a>. If you are comparing two frames with the same panel and one looks noticeably better, you are looking at software.</p>
+          <h3>Which images suit the medium best?</h3>
+          <div class="table-scroll"><table class="table-lite">
+            <tr><th>Image type</th><th>How it renders</th><th>Verdict</th></tr>
+            <tr><td>Paintings, illustration, poster art</td><td>Flat colour fields and brushwork sit naturally in a six-pigment gamut</td><td>Excellent</td></tr>
+            <tr><td>Landscape and architecture</td><td>Broad tonal range renders well; very saturated skies soften</td><td>Very good</td></tr>
+            <tr><td>Portraits and skin tones</td><td>The hardest test &mdash; good pipelines hold up, weak ones go waxy</td><td>Demand a demo</td></tr>
+            <tr><td>Neon, night photography, deep blues</td><td>Most affected by gamut limits; can look dusty</td><td>Choose carefully</td></tr>
+            <tr><td>Black and white photography</td><td>Only two pigments needed for most of the image; very clean</td><td>Outstanding</td></tr>
+          </table></div>
+          <p class="source-note">Source: einksmart rendering tests across Spectra 6 panels, 2026.</p></section>
+
+          <section id="light"><h2>Light changes everything &mdash; and that is the point</h2>
+          <p><strong>ePaper has no brightness of its own, so the room is effectively your backlight.</strong> In daylight, or with a picture light aimed at it, a colour ePaper frame looks rich and dimensional. In a dim room at night it looks flat and dark &mdash; precisely as a framed print would in the same room, and precisely why it does not glow at you during a film.</p>
+          <p>Buyers discover this for themselves. One wrote that with a good light source pointed at it &ldquo;it&rsquo;s really great&rdquo;, and that when his room was too dark he would focus a beam on it. <strong>That is not a workaround; that is how wall art has always been lit.</strong> Galleries light paintings for exactly this reason.</p>
+          <div class="table-scroll"><table class="table-lite">
+            <tr><th>Lighting condition</th><th>How it looks</th><th>What to do</th></tr>
+            <tr><td>Daylight room, indirect sun</td><td>Best case &mdash; full colour, natural depth</td><td>Nothing. This is the design target</td></tr>
+            <tr><td>Direct sunlight</td><td>Contrast improves; no washout</td><td>Fine, though UV care applies to frame materials</td></tr>
+            <tr><td>Warm evening lamplight</td><td>Slightly warmer overall cast</td><td>Acceptable; consider a neutral picture light</td></tr>
+            <tr><td>Dim corridor, no local light</td><td>Flat and dark</td><td>Add a picture light, or choose a front-lit model</td></tr>
+          </table></div>
+          <p class="source-note">Source: einksmart installation experience, 2025&ndash;2026.</p>
+          <figure><img src="/assets/blog/e-ink-picture-frames-living-room.jpg" width="1500" height="1125" loading="lazy" alt="Two colour E-Ink picture frames displaying artwork on a bright living room wall in daylight" /><figcaption>Daylight is the design target for reflective displays &mdash; the same condition in which prints look their best. Image: einksmart concept interior.</figcaption></figure></section>
+
+          <section id="refresh"><h2>What the refresh looks like</h2>
+          <p><strong>A full colour change takes a few seconds and is visibly a process, not a cut.</strong> The panel works through intermediate states as pigments move, which on older waveforms looked like a sequence of flashes. Newer waveform generations have made this noticeably smoother, but it is still nothing like a screen switching frames &mdash; and it is why colour ePaper cannot show video, a limit we cover in <a href="./epaper-frame-vs-digital-photo-frame.html">our frame comparison</a>.</p>
+          <p>In practice most owners rarely witness it, because images change on a schedule rather than on demand. If the refresh bothers you, schedule changes for times when nobody is in the room.</p>
+          <h3>What about ghosting?</h3>
+          <p><strong>A faint residue of the previous image can persist, and a full refresh cycle clears it.</strong> Ghosting is more likely on panels driven with aggressive partial-update waveforms to save power. When you demo a frame, change the image twice and look at a light area for a shadow of what was there before &mdash; ten seconds of testing that tells you a lot about the firmware.</p></section>
+
+          <section id="ask"><h2>How to see it honestly before you buy</h2>
+          <p><strong>Every marketing image of an e-ink frame you have ever seen was composited in software.</strong> The picture in the frame was placed there in Photoshop, at full LCD saturation, because that is how product photography works. It is not dishonest by intent, but it is not what the panel does. Ask for these four things instead:</p>
+          <ul>
+            <li><strong>An unedited phone photo of a real panel</strong> in ordinary room light, not a studio. We were asked for exactly this by a buyer looking at another brand &mdash; it is a completely fair request and any manufacturer can satisfy it in ten minutes.</li>
+            <li><strong>Your own image, rendered.</strong> Send a photograph you care about and ask for it back on their panel. This tests the pipeline, which is the part that actually differs.</li>
+            <li><strong>A portrait and a blue sky.</strong> The two hardest subjects. If those hold up, everything else will.</li>
+            <li><strong>A close-up at 10 cm.</strong> You should see dither structure. A vendor who claims you will not is either selling something else or has never looked.</li>
+          </ul>
+          <p>We publish close-up photographs of our own panels for this reason and will send more on request &mdash; <a href="../../contact.html">ask us for your own image on a panel</a>. If our rendering does not suit the work you want to display, we would rather tell you before you buy.</p></section>
+
+          <section id="verdict"><h2>So is it good enough?</h2>
+          <p><strong>For art, illustration, photography prints and anything you would otherwise have framed: yes, comfortably.</strong> The medium reads as print because it obeys the same optics as print. For neon-lit night photography, high-saturation graphic design, or anything you intend to inspect from 20 cm, choose a different display &mdash; and we will say so on a sales call.</p>
+          <p>The one thing we would ask the industry to stop doing is showing these panels as if they were backlit. <strong>Every returned frame in this category that began with &ldquo;this is not what I expected&rdquo; was sold with an image the panel could not produce.</strong> Set the expectation correctly and the same product delights people, as the buyers who described theirs as &ldquo;a beautiful product&rdquo; in the same comment threads demonstrate.</p></section>
+
+          <section id="faq"><h2>FAQ</h2><div class="faq">
+            <details><summary>Why does my colour E-Ink frame show visible dots?</summary><p>The panel has six pigments and builds every other colour by dithering them. Close up you see the pattern; at normal distance your eye blends it into continuous tone, exactly as with a printed halftone.</p></details>
+            <details><summary>Why do my photos look sepia or washed out?</summary><p>Two causes: the six-pigment gamut compresses saturated blues toward warmer neighbours, and the panel white is paper-white at about 34% reflectance. Good rendering software reduces this considerably; poor software makes it obvious.</p></details>
+            <details><summary>Is the white really grey?</summary><p>It is paper-white, not backlit-white &mdash; about 34% reflectance, closer to newsprint than coated art paper. A bright white matboard beside it makes the difference far more obvious.</p></details>
+            <details><summary>Does room lighting change how it looks?</summary><p>Completely. ePaper is reflective and has no brightness of its own. In daylight or under a picture light it looks rich; in a dim room it looks flat, like any print.</p></details>
+            <details><summary>Do smaller frames look grainier?</summary><p>They can, because you view them closer. Grain visibility is a function of viewing distance versus pixel density, not panel size alone.</p></details>
+            <details><summary>What should I ask a vendor before buying?</summary><p>Ask for an unedited close-up photograph of your own image on their panel in ordinary room light. Marketing renders are made in software; a phone photo of a real panel is the only honest evidence.</p></details>
+          </div></section>
+
+          <section id="next"><h2>Next step</h2>
+            <div class="article-cta"><a class="btn teal" href="../../contact.html">Send us an image to render</a><a class="btn secondary" href="../../technology.html">See the rendering pipeline</a><a class="btn secondary" href="../../product.html">Explore the content platform</a></div>
+            <div class="related-grid">
+              <a class="card article-card" href="./e-ink-picture-frames-explained.html"><div class="article-card-media"><img class="article-card-image" src="/assets/blog/e-ink-picture-frames-living-room.jpg" width="1500" height="1125" loading="lazy" alt="Two E-Ink picture frames displaying colour artwork in a living room" /></div><div class="article-card-body"><span class="tag">Insights</span><h3>E-Ink picture frames explained</h3><p>How reflective frames work, why they look like paper, and what to check before buying.</p><span class="btn secondary">Read Insight</span></div></a>
+              <a class="card article-card" href="./are-digital-picture-frames-worth-it.html"><div class="article-card-media"><img class="article-card-image" src="/assets/blog/digital-picture-frame-family-photo-25-inch.jpg" width="1000" height="1000" loading="lazy" alt="A large colour E-Ink picture frame displaying a family photograph" /></div><div class="article-card-body"><span class="tag">Insights</span><h3>Are digital picture frames still worth it?</h3><p>We read 489 buyer comments. The biggest problem is not the technology.</p><span class="btn secondary">Read Insight</span></div></a>
+              <a class="card article-card" href="./large-e-ink-displays-compared.html"><div class="article-card-media"><img class="article-card-image" src="/assets/blog/color-eink-poster-retail-promotion.jpg" width="1000" height="1000" loading="lazy" alt="A large-format colour E-Ink poster display in a wooden frame" /></div><div class="article-card-body"><span class="tag">Insights</span><h3>Large E-Ink displays: every size compared</h3><p>From 7.3-inch frames to 75-inch panels, with the formats most buyers never find.</p><span class="btn secondary">Read Insight</span></div></a>
+            </div>
+          </section>
+          <section class="article-share" data-article-share aria-labelledby="article-share-title">
+            <div>
+              <p class="share-label" id="article-share-title">Share this article</p>
+              <p class="share-note">Send this guide to your team or save the canonical link.</p>
+            </div>
+            <div class="share-buttons" aria-label="Share this article">
+            <a class="share-button facebook" href="#" data-share-channel="facebook" target="_blank" rel="noopener" aria-label="Share on Facebook"><span class="share-icon" aria-hidden="true">f</span><span class="share-text">Facebook</span></a>
+            <a class="share-button linkedin" href="#" data-share-channel="linkedin" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><span class="share-icon" aria-hidden="true">in</span><span class="share-text">LinkedIn</span></a>
+            <a class="share-button x" href="#" data-share-channel="x" target="_blank" rel="noopener" aria-label="Share on X"><span class="share-icon" aria-hidden="true">X</span><span class="share-text">X</span></a>
+            <a class="share-button pinterest" href="#" data-share-channel="pinterest" target="_blank" rel="noopener" aria-label="Share on Pinterest"><span class="share-icon" aria-hidden="true">P</span><span class="share-text">Pinterest</span></a>
+            <a class="share-button whatsapp" href="#" data-share-channel="whatsapp" target="_blank" rel="noopener" aria-label="Share on WhatsApp"><span class="share-icon" aria-hidden="true">WA</span><span class="share-text">WhatsApp</span></a>
+            <a class="share-button telegram" href="#" data-share-channel="telegram" target="_blank" rel="noopener" aria-label="Share on Telegram"><span class="share-icon" aria-hidden="true">TG</span><span class="share-text">Telegram</span></a>
+            <a class="share-button vk" href="#" data-share-channel="vk" target="_blank" rel="noopener" aria-label="Share on VK"><span class="share-icon" aria-hidden="true">VK</span><span class="share-text">VK</span></a>
+            <a class="share-button email" href="#" data-share-channel="email" aria-label="Share by email"><span class="share-icon" aria-hidden="true">@</span><span class="share-text">Email</span></a>
+              <button type="button" class="share-button copy" data-share-action="copy" data-copied-label="Copied" aria-label="Copy article link"><span class="share-icon" aria-hidden="true">URL</span><span class="share-text">Copy link</span></button>
+              <button type="button" class="share-button native" data-share-action="native" aria-label="Share this article"><span class="share-icon" aria-hidden="true">+</span><span class="share-text">Share</span></button>
+            </div>
+          </section>
+        </article>
+        <aside class="toc" data-toc><button class="toc-toggle" type="button" aria-expanded="false" aria-controls="toc-links">On this page</button><nav class="toc-links" id="toc-links" aria-label="On this page"><a href="#answer">Short answer</a><a href="#facts">Key facts</a><a href="#six">Six pigments</a><a href="#white">Why white looks grey</a><a href="#sepia">Why photos look warm</a><a href="#light">Light changes everything</a><a href="#refresh">The refresh</a><a href="#ask">See it honestly</a><a href="#verdict">Is it good enough?</a><a href="#faq">FAQ</a><a href="#next">Next step</a></nav></aside>
+      </div></section>
+    </main>
+<footer class="site-footer"><div class="container footer-grid"><div><div class="brand"><img class="brand-logo" src="/assets/brand/footer-lockup.svg" alt="einksmart Color E-Ink Content Platform" /></div><p>Insights for managed color E-Ink content surfaces.</p></div><div class="footer-links"><strong>Blog</strong><a href="../">Blog</a><a href="./">Insights</a><a href="../case-studies/">Case Studies</a><a href="../news/">News</a></div><div class="footer-links"><strong>Site</strong><a href="../../product.html">Product</a><a href="../../solutions.html">Solutions</a><a href="../../sitemap.html">Sitemap</a></div><div class="footer-contact"><strong>Contact</strong><a href="mailto:info@einksmart.com">info@einksmart.com</a><span>Building A1, Yuexiu iPARK Yuegang Zhigu, Nansha District, Guangzhou, Guangdong Province, China</span></div></div><div class="container footer-brand-row" aria-label="PanPanTech Group brands"><span><a href="https://www.panpantechnology.com" target="_blank" rel="noopener">PanPanTech&reg;</a> &mdash; Group Site</span><span><a href="https://www.aieinksmart.com" target="_blank" rel="noopener">AiEInkSmart&trade;</a> &mdash; Electronic Shelf Labels</span><span><a href="https://www.pyroglaux.com" target="_blank" rel="noopener">Pyroglaux&reg;</a> &mdash; Footfall Analytics</span><span><a href="https://www.aiesl.com" target="_blank" rel="noopener">AiESL&trade;</a> &mdash; Retail Data Platform</span></div><div class="container footer-legal"><span>&copy; 2026 EinkSmart&trade; | The Color E-Ink Content Platform of PanPanTech&reg; | Guangzhou PanPanTech Co., Ltd. All Rights Reserved.</span></div></footer>
+  </body>
+</html>
