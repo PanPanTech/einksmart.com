@@ -230,7 +230,7 @@
       "slug": "canvas-13-3-insert",
       "kind": "insert",
       "size": "13.3",
-      "image": "/assets/products/gallery/details-16.webp",
+      "image": "/assets/products/gallery/canvas-13-3-insert-photo-01.webp",
       "name": {
         "en": "Canvas 13.3 Insert",
         "zh-cn": "Canvas 13.3 相框内胆"
@@ -244,8 +244,8 @@
         "zh-cn": "16 mm 厚的电子纸相框内胆，适合画框品牌与集成商。保留自己的外框、安装设计及软件系统，采购可集成的显示核心。"
       },
       "caption": {
-        "en": "Front, side and rear views. Supplier illustration, not a screen-performance photograph.",
-        "zh-cn": "正面、侧面与背面。供应商示意图，并非屏幕色彩实拍。"
+        "en": "13.3-inch insert sample, front view; not the CNC frame configuration.",
+        "zh-cn": "13.3 英寸内胆样品正面实拍；非 CNC 成品框配置。"
       },
       "resolution": "1600 × 1200",
       "ratio": "4:3 / 3:4",
@@ -310,33 +310,40 @@
       },
       "gallery": [
         {
-          "src": "/assets/products/gallery/details-16.webp",
+          "src": "/assets/products/gallery/canvas-13-3-insert-photo-01.webp",
           "caption": {
-            "en": "Front, side and rear views. Supplier illustration, not a screen-performance photograph.",
-            "zh-cn": "正面、侧面与背面。供应商示意图，并非屏幕色彩实拍。"
+            "en": "13.3-inch insert sample, front view; not the CNC frame configuration.",
+            "zh-cn": "13.3 英寸内胆样品正面实拍；非 CNC 成品框配置。"
           }
         },
         {
-          "src": "/assets/products/gallery/details-13.webp",
+          "src": "/assets/products/gallery/canvas-13-3-insert-photo-02.webp",
           "caption": {
-            "en": "Angled front and rear views. Supplier illustration, not a screen-performance photograph.",
-            "zh-cn": "正面斜视及背面。供应商示意图，并非屏幕色彩实拍。"
+            "en": "13.3-inch insert sample, rear and side profile.",
+            "zh-cn": "13.3 英寸内胆样品背面及侧面实拍。"
           }
         },
         {
-          "src": "/assets/products/gallery/details-17.webp",
+          "src": "/assets/products/gallery/canvas-13-3-insert-photo-03.webp",
           "caption": {
-            "en": "13.3-inch display-area reference. Supplier illustration, not a screen-performance photograph.",
-            "zh-cn": "13.3 英寸显示区域参考。供应商示意图，并非屏幕色彩实拍。"
+            "en": "13.3-inch insert sample, edge and connector detail.",
+            "zh-cn": "13.3 英寸内胆样品侧边与接口细节实拍。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/canvas-13-3-insert-photo-04.webp",
+          "caption": {
+            "en": "13.3-inch insert mounted in an optional outer frame, rear view.",
+            "zh-cn": "13.3 英寸内胆装入选配外框后的背面参考实拍。"
           }
         }
       ]
     },
     {
-      "image": "/assets/products/gallery/details-03.webp",
+      "image": "/assets/products/gallery/canvas-7-09-insert-photo-01.webp",
       "caption": {
-        "en": "Front, side and rear views. Supplier illustration, not a screen-performance photograph.",
-        "zh-cn": "正面、侧面与背面。供应商示意图，并非屏幕色彩实拍。"
+        "en": "7.09-inch insert sample, front view.",
+        "zh-cn": "7.09 英寸内胆样品正面实拍。"
       },
       "ppi": "282",
       "area": "108 × 144 mm",
@@ -409,33 +416,40 @@
       },
       "gallery": [
         {
-          "src": "/assets/products/gallery/details-03.webp",
+          "src": "/assets/products/gallery/canvas-7-09-insert-photo-01.webp",
           "caption": {
-            "en": "Front, side and rear views. Supplier illustration, not a screen-performance photograph.",
-            "zh-cn": "正面、侧面与背面。供应商示意图，并非屏幕色彩实拍。"
+            "en": "7.09-inch insert sample, front view.",
+            "zh-cn": "7.09 英寸内胆样品正面实拍。"
           }
         },
         {
-          "src": "/assets/products/gallery/details-05.webp",
+          "src": "/assets/products/gallery/canvas-7-09-insert-photo-02.webp",
           "caption": {
-            "en": "USB-C, card slot and controls. Supplier illustration, not a screen-performance photograph.",
-            "zh-cn": "USB-C、存储卡槽与按键。供应商示意图，并非屏幕色彩实拍。"
+            "en": "7.09-inch insert sample, angled front view.",
+            "zh-cn": "7.09 英寸内胆样品正面斜视实拍。"
           }
         },
         {
-          "src": "/assets/products/gallery/details-04.webp",
+          "src": "/assets/products/gallery/canvas-7-09-insert-photo-03.webp",
           "caption": {
-            "en": "Mechanical dimensions. Supplier illustration, not a screen-performance photograph.",
-            "zh-cn": "外形尺寸。供应商示意图，并非屏幕色彩实拍。"
+            "en": "7.09-inch sample displaying a portrait photograph.",
+            "zh-cn": "7.09 英寸样品显示人像照片的实拍。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/canvas-7-09-insert-photo-04.webp",
+          "caption": {
+            "en": "7.09-inch sample, rear enclosure and stand.",
+            "zh-cn": "7.09 英寸样品背壳与支架实拍。"
           }
         }
       ]
     },
     {
-      "image": "/assets/products/gallery/details-09.webp",
+      "image": "/assets/products/gallery/canvas-10-1-insert-photo-01.webp",
       "caption": {
-        "en": "Front, side and rear views. Supplier illustration, not a screen-performance photograph.",
-        "zh-cn": "正面、侧面与背面。供应商示意图，并非屏幕色彩实拍。"
+        "en": "10.1-inch insert sample, front view.",
+        "zh-cn": "10.1 英寸内胆样品正面实拍。"
       },
       "ppi": "200",
       "area": "203.2 × 152.4 mm",
@@ -508,17 +522,31 @@
       },
       "gallery": [
         {
-          "src": "/assets/products/gallery/details-09.webp",
+          "src": "/assets/products/gallery/canvas-10-1-insert-photo-01.webp",
           "caption": {
-            "en": "Front, side and rear views. Supplier illustration, not a screen-performance photograph.",
-            "zh-cn": "正面、侧面与背面。供应商示意图，并非屏幕色彩实拍。"
+            "en": "10.1-inch insert sample, front view.",
+            "zh-cn": "10.1 英寸内胆样品正面实拍。"
           }
         },
         {
-          "src": "/assets/products/gallery/details-11.webp",
+          "src": "/assets/products/gallery/canvas-10-1-insert-photo-02.webp",
           "caption": {
-            "en": "Outer-frame integration examples; frames are optional. Supplier illustration, not a screen-performance photograph.",
-            "zh-cn": "外框集成示例，外框为选配。供应商示意图，并非屏幕色彩实拍。"
+            "en": "10.1-inch insert sample, angled front view.",
+            "zh-cn": "10.1 英寸内胆样品正面斜视实拍。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/canvas-10-1-insert-photo-03.webp",
+          "caption": {
+            "en": "10.1-inch sample, rear enclosure and stand.",
+            "zh-cn": "10.1 英寸样品背壳与支架实拍。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/canvas-10-1-insert-photo-04.webp",
+          "caption": {
+            "en": "10.1-inch sample, alternate rear view.",
+            "zh-cn": "10.1 英寸样品背面另一角度实拍。"
           }
         }
       ]
@@ -603,7 +631,7 @@
       "slug": "canvas-a2-28-5",
       "kind": "display",
       "size": "28.5",
-      "image": "/assets/products/canvas-a2-reference.webp",
+      "image": "/assets/products/gallery/canvas-a2-28-5-photo-01.webp",
       "name": {
         "en": "Canvas A2 · 28.5",
         "zh-cn": "Canvas A2 · 28.5 英寸"
@@ -617,8 +645,8 @@
         "zh-cn": "适合酒店、画廊与零售空间的 A2 规格彩色电子纸，用于替代低频更换的纸质海报。整机方案与裸屏集成须分别选型。"
       },
       "caption": {
-        "en": "Manufacturer enclosure illustration, not a photograph of color reproduction. Final finish is project-specific.",
-        "zh-cn": "供应商外壳示意图，并非屏幕色彩实拍。最终外观按项目配置确认。"
+        "en": "28.5-inch framed sample, front view.",
+        "zh-cn": "28.5 英寸装框样品正面实拍。"
       },
       "resolution": "2160 × 3060",
       "ratio": "1:√2",
@@ -683,24 +711,31 @@
       },
       "gallery": [
         {
-          "src": "/assets/products/canvas-a2-reference.webp",
+          "src": "/assets/products/gallery/canvas-a2-28-5-photo-01.webp",
           "caption": {
-            "en": "Manufacturer enclosure illustration, not a photograph of color reproduction. Final finish is project-specific.",
-            "zh-cn": "供应商外壳示意图，并非屏幕色彩实拍。最终外观按项目配置确认。"
+            "en": "28.5-inch framed sample, front view.",
+            "zh-cn": "28.5 英寸装框样品正面实拍。"
           }
         },
         {
-          "src": "/assets/products/gallery/large-07.webp",
+          "src": "/assets/products/gallery/canvas-a2-28-5-photo-02.webp",
           "caption": {
-            "en": "Supplier photograph labeled 28.5 inches. Enclosure is a reference configuration.",
-            "zh-cn": "供应商标注为 28.5 英寸的实拍，外壳为参考配置。"
+            "en": "28.5-inch framed sample, alternate viewing angle.",
+            "zh-cn": "28.5 英寸装框样品另一观看角度实拍。"
           }
         },
         {
-          "src": "/assets/products/gallery/large-04.webp",
+          "src": "/assets/products/gallery/canvas-a2-28-5-photo-03.webp",
           "caption": {
-            "en": "28.5-inch display on the left, 40.5-inch display on the right.",
-            "zh-cn": "左侧为 28.5 英寸显示屏，右侧为 40.5 英寸。"
+            "en": "28.5-inch framed sample, photographed indoors.",
+            "zh-cn": "28.5 英寸装框样品室内实拍。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/canvas-a2-28-5-photo-04.webp",
+          "caption": {
+            "en": "28.5-inch sample in the center, alongside smaller frames.",
+            "zh-cn": "中间为 28.5 英寸样品，两侧为小尺寸相框。"
           }
         }
       ]
@@ -710,7 +745,7 @@
       "slug": "canvas-31-5",
       "kind": "display",
       "size": "31.5",
-      "image": null,
+      "image": "/assets/products/gallery/canvas-31-5-photo-01.webp",
       "name": {
         "en": "Canvas 31.5",
         "zh-cn": "Canvas 31.5 横屏信息屏"
@@ -724,8 +759,8 @@
         "zh-cn": "适合信息板、品牌内容及低频数字标牌的横向彩色电子纸。建议用实际内容评估观看距离与文字尺寸。"
       },
       "caption": {
-        "en": "Display-area proportion diagram, not a product photograph. Enclosure finish is confirmed per project.",
-        "zh-cn": "可视区域比例示意，并非产品照片。外壳效果按项目确认。"
+        "en": "31.5-inch sample displaying color artwork in portrait orientation.",
+        "zh-cn": "31.5 英寸样品竖向展示彩色画面的实拍。"
       },
       "resolution": "2560 × 1440",
       "ratio": "16:9",
@@ -787,13 +822,36 @@
       "status": {
         "en": "Sample / project quotation",
         "zh-cn": "样机 / 项目询价"
-      }
+      },
+      "gallery": [
+        {
+          "src": "/assets/products/gallery/canvas-31-5-photo-01.webp",
+          "caption": {
+            "en": "31.5-inch sample displaying color artwork in portrait orientation.",
+            "zh-cn": "31.5 英寸样品竖向展示彩色画面的实拍。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/canvas-31-5-photo-02.webp",
+          "caption": {
+            "en": "31.5-inch sample displaying poster content.",
+            "zh-cn": "31.5 英寸样品展示海报内容的实拍。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/canvas-31-5-photo-03.webp",
+          "caption": {
+            "en": "31.5-inch panel integration sample; exposed electronics are not a finished enclosure.",
+            "zh-cn": "31.5 英寸屏体集成样品实拍；外露电路状态非完整成品外壳。"
+          }
+        }
+      ]
     },
     {
-      "image": null,
+      "image": "/assets/products/gallery/canvas-a3-20-2-photo-01.webp",
       "caption": {
-        "en": "Display format diagram; product photographs pending.",
-        "zh-cn": "显示形态示意，产品实拍待补充。"
+        "en": "20.2-inch framed sample, front view; confirm outer-frame configuration when ordering.",
+        "zh-cn": "20.2 英寸装框样品正面实拍；外框配置需在订购时确认。"
       },
       "ppi": "131",
       "area": "297.28 × 419.69 mm",
@@ -868,13 +926,35 @@
         "en": "A3 posters, reception areas and commercial information",
         "zh-cn": "A3 海报、前台与商用信息展示"
       },
-      "gallery": []
+      "gallery": [
+        {
+          "src": "/assets/products/gallery/canvas-a3-20-2-photo-01.webp",
+          "caption": {
+            "en": "20.2-inch framed sample, front view; confirm outer-frame configuration when ordering.",
+            "zh-cn": "20.2 英寸装框样品正面实拍；外框配置需在订购时确认。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/canvas-a3-20-2-photo-02.webp",
+          "caption": {
+            "en": "20.2-inch sample displaying a portrait photograph.",
+            "zh-cn": "20.2 英寸样品显示人像照片的实拍。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/canvas-a3-20-2-photo-03.webp",
+          "caption": {
+            "en": "20.2-inch sample on the left, shown beside a smaller frame for scale.",
+            "zh-cn": "左侧为 20.2 英寸样品，旁置小尺寸相框作比例参考。"
+          }
+        }
+      ]
     },
     {
-      "image": "/assets/products/gallery/large-04.webp",
+      "image": "/assets/products/gallery/canvas-a1-40-5-photo-01.webp",
       "caption": {
-        "en": "Supplier size comparison: 28.5-inch unit left and 40.5-inch unit right. Reference enclosures, not a promised finish.",
-        "zh-cn": "供应商尺寸对比：左侧 28.5 英寸，右侧 40.5 英寸。外壳为参考配置。"
+        "en": "40.5-inch sample photographed outdoors; this is not an outdoor-rating claim.",
+        "zh-cn": "40.5 英寸样品户外拍摄实景；不代表具备户外防护等级。"
       },
       "ppi": "131",
       "area": "594.56 × 839.38 mm",
@@ -951,26 +1031,40 @@
       },
       "gallery": [
         {
-          "src": "/assets/products/gallery/large-04.webp",
+          "src": "/assets/products/gallery/canvas-a1-40-5-photo-01.webp",
           "caption": {
-            "en": "Supplier size comparison: 28.5-inch unit left and 40.5-inch unit right. Reference enclosures, not a promised finish.",
-            "zh-cn": "供应商尺寸对比：左侧 28.5 英寸，右侧 40.5 英寸。外壳为参考配置。"
+            "en": "40.5-inch sample photographed outdoors; this is not an outdoor-rating claim.",
+            "zh-cn": "40.5 英寸样品户外拍摄实景；不代表具备户外防护等级。"
           }
         },
         {
-          "src": "/assets/products/gallery/large-19.webp",
+          "src": "/assets/products/gallery/canvas-a1-40-5-photo-02.webp",
           "caption": {
-            "en": "Bare-panel size comparison: A1 40.5 and A2 28.5. Not complete units.",
-            "zh-cn": "裸屏尺寸对比：A1 40.5 与 A2 28.5，并非成品整机。"
+            "en": "40.5-inch sample displaying alternate seasonal artwork.",
+            "zh-cn": "40.5 英寸样品展示另一组节庆画面的实拍。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/canvas-a1-40-5-photo-03.webp",
+          "caption": {
+            "en": "40.5-inch sample in its surrounding space, for scale reference.",
+            "zh-cn": "40.5 英寸样品与周围环境实拍，供尺寸比例参考。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/canvas-a1-40-5-photo-04.webp",
+          "caption": {
+            "en": "40.5-inch sample displaying a retail promotion in an indoor demonstration setting.",
+            "zh-cn": "40.5 英寸样品在室内演示环境中展示零售促销画面的实拍。"
           }
         }
       ]
     },
     {
-      "image": "/assets/products/gallery/details-18.webp",
+      "image": "/assets/products/gallery/canvas-1-69-round-photo-01.webp",
       "caption": {
-        "en": "Badge front, rear and thin side profile. Supplier illustration, not a screen-performance photograph.",
-        "zh-cn": "徽章正面、背面及薄型侧面。供应商示意图，并非屏幕色彩实拍。"
+        "en": "1.69-inch round display sample photograph.",
+        "zh-cn": "1.69 英寸圆形显示样品实拍。"
       },
       "ppi": "236",
       "area": {
@@ -1046,17 +1140,10 @@
       },
       "gallery": [
         {
-          "src": "/assets/products/gallery/details-18.webp",
+          "src": "/assets/products/gallery/canvas-1-69-round-photo-01.webp",
           "caption": {
-            "en": "Badge front, rear and thin side profile. Supplier illustration, not a screen-performance photograph.",
-            "zh-cn": "徽章正面、背面及薄型侧面。供应商示意图，并非屏幕色彩实拍。"
-          }
-        },
-        {
-          "src": "/assets/products/gallery/details-19.webp",
-          "caption": {
-            "en": "Diameter and thickness reference. Supplier illustration, not a screen-performance photograph.",
-            "zh-cn": "直径与厚度参考。供应商示意图，并非屏幕色彩实拍。"
+            "en": "1.69-inch round display sample photograph.",
+            "zh-cn": "1.69 英寸圆形显示样品实拍。"
           }
         }
       ]
@@ -1164,10 +1251,10 @@
       ]
     },
     {
-      "image": "/assets/products/gallery/details-00.webp",
+      "image": "/assets/products/gallery/canvas-5-89-tag-photo-01.webp",
       "caption": {
-        "en": "Front view. Supplier illustration, not a screen-performance photograph.",
-        "zh-cn": "正面。供应商示意图，并非屏幕色彩实拍。"
+        "en": "5.89-inch display samples with multiple enclosure colors and content layouts.",
+        "zh-cn": "5.89 英寸显示样品实拍，展示多种外壳颜色与内容排版。"
       },
       "ppi": "199",
       "area": {
@@ -1239,33 +1326,33 @@
       },
       "gallery": [
         {
-          "src": "/assets/products/gallery/details-00.webp",
+          "src": "/assets/products/gallery/canvas-5-89-tag-photo-01.webp",
           "caption": {
-            "en": "Front view. Supplier illustration, not a screen-performance photograph.",
-            "zh-cn": "正面。供应商示意图，并非屏幕色彩实拍。"
+            "en": "5.89-inch display samples with multiple enclosure colors and content layouts.",
+            "zh-cn": "5.89 英寸显示样品实拍，展示多种外壳颜色与内容排版。"
           }
         },
         {
-          "src": "/assets/products/gallery/details-01.webp",
+          "src": "/assets/products/gallery/canvas-5-89-tag-photo-02.webp",
           "caption": {
-            "en": "Front, side and rear views. Supplier illustration, not a screen-performance photograph.",
-            "zh-cn": "正面、侧面与背面。供应商示意图，并非屏幕色彩实拍。"
+            "en": "5.89-inch handheld sample and tabletop display references.",
+            "zh-cn": "5.89 英寸手持样品与桌面展示参考实拍。"
           }
         },
         {
-          "src": "/assets/products/gallery/details-02.webp",
+          "src": "/assets/products/gallery/canvas-5-89-tag-photo-03.webp",
           "caption": {
-            "en": "Dimensions. Supplier illustration, not a screen-performance photograph.",
-            "zh-cn": "尺寸。供应商示意图，并非屏幕色彩实拍。"
+            "en": "5.89-inch samples viewed from another angle; confirm enclosure options separately.",
+            "zh-cn": "5.89 英寸样品另一角度实拍；外壳选项需另行确认。"
           }
         }
       ]
     },
     {
-      "image": null,
+      "image": "/assets/products/gallery/canvas-1-54-module-photo-01.webp",
       "caption": {
-        "en": "Display format diagram; product photographs pending.",
-        "zh-cn": "显示形态示意，产品实拍待补充。"
+        "en": "1.54-inch sample with evaluation board; board is not a standard module inclusion.",
+        "zh-cn": "1.54 英寸样品及评估板实拍；评估板不属于裸屏模组标准包含项。"
       },
       "ppi": "TBC",
       "area": {
@@ -1336,7 +1423,30 @@
       "fit": {
         "en": "Wearables, IoT and custom small displays",
         "zh-cn": "穿戴、物联网及小型定制显示"
-      }
+      },
+      "gallery": [
+        {
+          "src": "/assets/products/gallery/canvas-1-54-module-photo-01.webp",
+          "caption": {
+            "en": "1.54-inch sample with evaluation board; board is not a standard module inclusion.",
+            "zh-cn": "1.54 英寸样品及评估板实拍；评估板不属于裸屏模组标准包含项。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/canvas-1-54-module-photo-02.webp",
+          "caption": {
+            "en": "1.54-inch module and enclosure integration reference.",
+            "zh-cn": "1.54 英寸模组与外壳集成参考实拍。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/canvas-1-54-module-photo-03.webp",
+          "caption": {
+            "en": "1.54-inch enclosure samples; housing is a separate integration option.",
+            "zh-cn": "1.54 英寸外壳样品实拍；外壳属于另行确认的集成选项。"
+          }
+        }
+      ]
     }
   ]
 }

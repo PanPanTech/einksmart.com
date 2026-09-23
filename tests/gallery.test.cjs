@@ -35,7 +35,7 @@ test('full range, galleries, zoom dialog, category filters and inquiry models',a
       await page.keyboard.press('Escape');assert.equal(await page.locator('dialog').evaluate(d=>d.open),false);
       assert.equal(await page.locator('[data-gallery-open]').evaluate(n=>n===document.activeElement),true);
      }
-     if(['AES-0750V','AES-1330V','AES-0709V','AES-0370V','AES-2020V'].includes(p.model))await page.screenshot({path:`.qa/e6-${p.slug}-${lang}-${width}.png`,fullPage:true});
+     if(['AES-0750V','AES-1330V','AES-0709V','AES-0370V','AES-2020V','AES-3150V','AES-0154V'].includes(p.model))await page.screenshot({path:`.qa/e6-${p.slug}-${lang}-${width}.png`,fullPage:true});
      const pdf=await page.locator('a[download]').getAttribute('href');const response=await page.request.get(base+pdf);assert.equal(response.status(),200);assert.equal(response.headers()['content-type'],'application/pdf');
     }
     await page.goto(`${base}/${lang}/contact.html?model=AES-0750V&intent=sample`);assert.equal(await page.locator('[name=model]').inputValue(),'AES-0750V');assert.equal(await page.locator('[name=model] option').count(),16);

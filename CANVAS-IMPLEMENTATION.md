@@ -4,7 +4,7 @@ Implementation branch: `codex/canvas-inquiry-upgrade`, based on origin/main `543
 
 ## Full-range and gallery follow-up
 
-The September 23 owner-supplied update expands the catalog to 13 diagonals and 14 configurations, including the dual-screen calendar, inserts, Bluetooth badges/tags and the A1/A3 displays. Product families can be filtered without a backend. Nine configurations have multiple matched image views, with thumbnail selection, keyboard navigation and a native zoom dialog. Unknown-model photos are not assigned arbitrarily. See `content/E6-SOURCE-NOTES.md` for unresolved specifications and image classification.
+The September 23 owner-supplied update expands the catalog to 13 diagonals and 14 configurations, including the dual-screen calendar, inserts, Bluetooth badges/tags and the A1/A3 displays. Product families can be filtered without a backend. Eleven configurations have multiple matched image views, with thumbnail selection, keyboard navigation and a native zoom dialog. The owner's subsequent size labels allow 33 photographs to replace or expand galleries for ten configurations. Unknown-model photos are not assigned arbitrarily. See `content/E6-SOURCE-NOTES.md` for unresolved specifications and image classification.
 
 The public PDF set now contains 30 files. After changing the catalog, run `npm run build:products`, `node scripts/sync-range-links.mjs`, the PDF builder and the sitemap script. The new gallery test checks every model in both languages at desktop and mobile widths, image selection, modal focus restoration, filters, downloads and inquiry options. No production inquiry is sent by these tests.
 
@@ -43,6 +43,6 @@ Session entry path, referring origin and campaign tags are persisted in sessionS
 
 ## Publication checks
 
-Keep www canonical and the existing open AI/search crawler policy. No robots changes are required. Verify the new sitemap URLs and PDF responses after deployment. The 31.5-inch image is a labeled proportion diagram; replace with a confirmed real photograph when available. The A2 image is labeled as a supplier illustration.
+Keep www canonical and the existing open AI/search crawler policy. No robots changes are required. Verify the new sitemap URLs and PDF responses after deployment. The 31.5, A3 and 1.54-inch pages now have owner-size-labeled sample photographs, and A2/A1 use their corresponding sample photographs. The 7.3-inch page retains a labeled proportion diagram pending a matched photograph. Photo-only changes require rebuilding product pages and syncing range links, not regenerating unchanged specification PDFs.
 
 Monitor comparable windows of product sessions, confirmed leads and sales-qualified inquiries. Low-volume changes do not establish a conversion-rate improvement on their own.

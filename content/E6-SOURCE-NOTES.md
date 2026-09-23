@@ -26,4 +26,6 @@ Gallery assets are resized WebP derivatives of owner-provided files, without ret
 - `large-07`: labeled 28.5-inch supplier photograph.
 - `large-19`: marked A1/A2 bare panels, clearly identified as components rather than complete units.
 
-The 13.3 CNC page retains its verified sample photograph. There are not enough confidently matched additional CNC angles. The 31.5, A3, 7.3 and 1.54 pages use labeled format diagrams where exact-model photos are missing. Unlabeled generic frame photos are not assigned to a specific SKU just to increase image counts.
+The owner subsequently labeled sample photographs by diagonal. Ten product configurations now use these photographs, including the formerly diagram-only 31.5, A3 and 1.54 pages. `product-photo-sources.json` records all 33 source filenames, model assignments and source/output dimensions. The two initially labeled 28.8-inch photographs were corrected by the owner to 28.5 inches before inclusion.
+
+The 13.3 CNC page retains its verified sample photograph. There are not enough confidently matched additional CNC angles; the new 13.3-inch insert photographs are not assigned to the CNC SKU. The 7.3 page still uses a labeled format diagram. Unlabeled generic frame photos are not assigned to a specific SKU just to increase image counts. Photos of integration boards, optional outer frames and outdoor demonstration settings are captioned as references, not promises of included accessories or outdoor certification. Photographs do not change the documented supply or software status.
