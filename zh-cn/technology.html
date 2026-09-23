@@ -20,12 +20,13 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon-180.png" sizes="180x180" />
     <link rel="stylesheet" href="../assets/styles.css" />
-  </head>
+  <link rel="stylesheet" href="/assets/catalog.css" />
+</head>
   <body>
-    <header class="site-header"><nav class="nav"><a class="brand" href="./"><img class="brand-logo" src="/assets/brand/header-lockup.svg" alt="einksmart Color E-Ink Content Platform" /></a><div class="nav-links"><a href="./">首页</a><a href="product.html">产品</a><a href="solutions.html">方案</a><a class="active" href="technology.html">技术</a><a href="partners.html">伙伴</a><a href="blog/">Blog</a><a href="contact.html">联系</a></div><div class="nav-actions"><a class="lang-link" href="../en/technology.html">EN</a><a class="btn teal" href="partners.html">成为伙伴</a></div></nav></header>
+    <header class="site-header"><nav class="nav" aria-label="主导航"><a class="brand" href="/zh-cn/"><img class="brand-logo" src="/assets/brand/header-lockup.svg" width="210" height="44" alt="einksmart" /></a><div class="nav-links" id="main-nav"><a href="/zh-cn/">首页</a><a href="/zh-cn/product.html">产品</a><a href="/zh-cn/solutions.html">解决方案</a><a class="active" aria-current="page" href="/zh-cn/technology.html">技术</a><a href="/zh-cn/partners.html">合作伙伴</a><a href="/zh-cn/blog/">博客</a><a href="/zh-cn/contact.html">联系</a></div><div class="nav-actions"><a class="lang-link" href="/en/technology.html">EN</a><a class="btn teal" data-analytics="quote_click" data-placement="header" href="/zh-cn/contact.html?model=&intent=quote#inquiry">获取报价</a><button class="nav-toggle" type="button" data-nav-toggle aria-controls="main-nav" aria-expanded="false" aria-label="展开导航" title="导航"><img src="/assets/icons/menu.svg" width="22" height="22" alt="" /></button></div></nav></header>
 
     <main>
-      <section class="page-hero"><div class="page-title"><div class="eyebrow">Technology</div><h1>支撑可管理彩色电子纸墙面的技术栈。</h1><p>我们的技术方向结合显示优化、内容生成、来源元数据和远程更新流程，服务 B2B 部署。</p></div></section>
+      <section class="page-hero"><div class="page-title"><div class="eyebrow">Technology</div><h1>支撑可管理彩色电子纸墙面的技术栈。</h1><p>我们的技术方向结合显示优化、内容生成、来源元数据和远程更新流程，服务 B2B 部署。</p></div></section><section class="section alt" id="software"><div class="container"><div class="section-head"><span class="eyebrow">内容更新</span><h2>让更新流程匹配实际硬件。</h2><p>先用自己的图片验证样机，并确认交付固件，再扩大部署。</p></div><div class="capability-list"><div><span class="status-label available">13.3 标准支持</span><h3>Wi-Fi 换图与本地导入</h3><p>13.3 英寸配置支持 Wi-Fi 图片推送及 TF 卡导入 JPG、BMP、PNG。可申请演示所选固件的具体操作。</p></div><div><span class="status-label optional">项目选配</span><h3>定时、分组与系统集成</h3><p>CMS、定时更新、设备分组和 API/SDK 按型号与项目确定。交付范围仅包含已演示并确认的功能。</p></div><div><span class="status-label planned">规划中</span><h3>MagiRealm 内容引擎</h3><p>扩展内容生成与授权内容库流程仍在开发，不是评估显示硬件的前提条件。</p></div></div><div class="update-sequence"><h3>样机评估流程</h3><ol><li>准备实际图片</li><li>演示更新方式</li><li>核验颜色、刷新与安装</li><li>确定部署配置</li></ol><div class="product-actions"><a class="btn teal" data-analytics="quote_click" data-model="" data-intent="quote" href="/zh-cn/contact.html?model=&intent=quote#inquiry">获取项目报价</a><a class="btn secondary" href="https://wa.me/8613925118851?text=Hello%20einksmart%2C%20I%20would%20like%20to%20discuss%20a%20color%20E-Ink%20project." data-analytics="whatsapp_click" data-model="" target="_blank" rel="noopener">WhatsApp</a></div></div></div></section>
 
       <section class="section">
         <div class="container visual-band">
@@ -59,11 +60,11 @@
           <div class="card">
             <div class="eyebrow">MagiRealm Engine</div>
             <h2>平台内部的内容引擎。</h2>
-            <p>MagiRealm 保留为有用的技术模块：多智能体故事、角色事件和世界状态节点可以转化为适合显示的视觉场景。它是灵犀平台的一种能力，不再是官网的主品牌承诺。</p>
+            <p>MagiRealm 是规划中的内容生成与故事引擎。扩展 AI 场景生成及授权内容库流程仍在开发，不是硬件标配；如需纳入项目，请先确认当前可用功能与交付范围。</p>
           </div>
           <div class="card">
             <h3>适用位置</h3>
-            <p>酒店主题、教育提示、IP 空间、展览演示和品牌叙事项目，可以在“动态故事层”有价值时使用 MagiRealm。其他项目也可以使用授权艺术、品牌资产或节日内容包。</p>
+            <p>MagiRealm 是规划中的内容生成与故事引擎。扩展 AI 场景生成及授权内容库流程仍在开发，不是硬件标配；如需纳入项目，请先确认当前可用功能与交付范围。</p>
           </div>
         </div>
       </section>
@@ -79,10 +80,12 @@
           </div>
         </div>
       </section>
-    </main>
+    <p class="section-note">交付说明：硬件与换图固件按型号确认。内容库、定时、分组和 API 集成不是全型号标配，请先申请演示并确认书面交付范围。</p></main>
 
-<footer class="site-footer"><div class="container footer-grid"><div><div class="brand"><img class="brand-logo" src="/assets/brand/footer-lockup.svg" alt="einksmart Color E-Ink Content Platform" /></div><p>面向 B2B 空间与渠道伙伴的彩色电子纸内容管理平台。</p></div><div class="footer-links"><strong>站点</strong><a href="./">首页</a><a href="product.html">产品</a><a href="solutions.html">方案</a><a href="technology.html">技术</a><a href="partners.html">伙伴</a><a href="contact.html">联系</a></div><div class="footer-links"><strong>Blog</strong><a href="blog/">Blog</a><a href="blog/insights/">Insights</a><a href="blog/case-studies/">Case Studies</a><a href="blog/news/">News</a><a href="sitemap.html">Sitemap</a></div><div class="footer-contact"><strong>联系</strong><a href="mailto:info@einksmart.com">info@einksmart.com</a><a href="tel:+8613925118851">+86-13925118851</a><span>Building A1, Yuexiu iPARK Yuegang Zhigu, Nansha District, Guangzhou, Guangdong Province, China</span><a href="../en/technology.html">EN</a></div></div><div class="container footer-brand-row" aria-label="PanPanTech Group brands"><span><a href="https://www.panpantechnology.com" target="_blank" rel="noopener">PanPanTech&reg;</a> &mdash; Group Site</span><span><a href="https://www.aieinksmart.com" target="_blank" rel="noopener">AiEInkSmart&trade;</a> &mdash; Electronic Shelf Labels</span><span><a href="https://www.pyroglaux.com" target="_blank" rel="noopener">Pyroglaux&reg;</a> &mdash; Footfall Analytics</span><span><a href="https://www.aiesl.com" target="_blank" rel="noopener">AiESL&trade;</a> &mdash; Retail Data Platform</span></div><div class="container footer-legal"><span>&copy; 2026 EinkSmart&trade; | The Color E-Ink Content Platform of PanPanTech&reg; | Guangzhou PanPanTech Co., Ltd. All Rights Reserved.</span></div></footer>
+<footer class="site-footer"><div class="container footer-grid"><div><div class="brand"><img class="brand-logo" src="/assets/brand/footer-lockup.svg" alt="einksmart Color E-Ink Content Platform" /></div><p>面向 B2B 空间与渠道伙伴的彩色电子纸内容管理平台。</p></div><div class="footer-links"><strong>站点</strong><a href="./">首页</a><a href="product.html">产品</a><a href="solutions.html">方案</a><a href="technology.html">技术</a><a href="partners.html">伙伴</a><a href="contact.html">联系</a></div><div class="footer-links"><strong>Blog</strong><a href="blog/">Blog</a><a href="blog/insights/">Insights</a><a href="blog/case-studies/">Case Studies</a><a href="blog/news/">News</a><a href="sitemap.html">Sitemap</a></div><div class="footer-contact"><strong>联系</strong><a href="mailto:info@einksmart.com">info@einksmart.com</a><a href="tel:+8613925118851">+86-13925118851</a><span>Building A1, Yuexiu iPARK Yuegang Zhigu, Nansha District, Guangzhou, Guangdong Province, China</span><a href="../en/technology.html">EN</a></div></div><div class="container footer-brand-row" aria-label="PanPanTech Group brands"><span><a href="https://www.panpantechnology.com" target="_blank" rel="noopener">PanPanTech&reg;</a> &mdash; Group Site</span><span><a href="https://www.aieinksmart.com" target="_blank" rel="noopener">AiEInkSmart&trade;</a> &mdash; Electronic Shelf Labels</span><span><a href="https://www.pyroglaux.com" target="_blank" rel="noopener">Pyroglaux&reg;</a> &mdash; Footfall Analytics</span><span><a href="https://www.aiesl.com" target="_blank" rel="noopener">AiESL&trade;</a> &mdash; Retail Data Platform</span></div><div class="container footer-legal"><span>&copy; 2026 EinkSmart&trade; | The Color E-Ink Content Platform of PanPanTech&reg; | Guangzhou PanPanTech Co., Ltd. All Rights Reserved.</span></div><div class="container footer-legal"><a href="/zh-cn/privacy.html">隐私说明</a></div></footer>
     <script src="../assets/site-config.js"></script>
-    <script src="../assets/site.js"></script>
-  </body>
+
+
+<script src="/assets/analytics-config.js"></script><script src="/assets/analytics.js"></script><script src="/assets/site.js"></script>
+</body>
 </html>

@@ -1,0 +1,14 @@
+{
+  "name": "einksmart-static-site",
+  "private": true,
+  "scripts": {
+    "build:products": "node scripts/build-products.mjs",
+    "test": "node --test tests/*.test.cjs",
+    "validate": "node scripts/validate-site.mjs",
+    "dev": "node dev-server.js"
+  },
+  "devDependencies": {
+    "parse5": "7.3.0",
+    "playwright": "^1.58.2"
+  }
+}

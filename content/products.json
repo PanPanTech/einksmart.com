@@ -1,0 +1,70 @@
+{
+  "revision": "2026-09-23",
+  "products": [
+    {
+      "model": "AES-1330CNC", "slug": "canvas-13-3-cnc", "kind": "frame", "size": "13.3", "image": "/assets/products/canvas-13-3-cnc.webp",
+      "name": {"en": "Canvas 13.3 CNC", "zh-cn": "Canvas 13.3 CNC 铝合金画框"},
+      "type": {"en": "Finished frame", "zh-cn": "成品画框"},
+      "description": {"en": "A CNC aluminium color E-Ink frame for product evaluation, gallery-style displays and branded spaces. Start with a sample before specifying a project batch.", "zh-cn": "采用 CNC 铝合金外壳的彩色电子纸画框，适合样机评估、艺术展示与品牌空间。先验证显示效果与更新流程，再确定项目配置。"},
+      "caption": {"en": "Sample photograph from the Canvas product specification. Finish is confirmed with the order.", "zh-cn": "Canvas 规格书中的样机照片，外观及表面处理以订单确认版本为准。"},
+      "resolution": "1600 × 1200", "ratio": "4:3 / 3:4", "ppi": "150",
+      "area": "202.8 × 270.4 mm",
+      "dimensions": {"en": "Confirmed for the selected enclosure and mounting", "zh-cn": "按所选外壳及安装方案确认"},
+      "power": {"en": "5,000 mAh rechargeable battery; 10,000 mAh option", "zh-cn": "5,000 mAh 可充电电池；可选 10,000 mAh"},
+      "updates": {"en": "Wi-Fi image push and TF-card image import", "zh-cn": "Wi-Fi 图片推送、TF 卡本地导入"},
+      "included": {"en": ["13.3-inch E Ink Spectra 6 display", "CNC aluminium enclosure", "Rechargeable battery and Wi-Fi configuration", "Factory firmware agreed for the project"], "zh-cn": ["13.3 英寸 E Ink Spectra 6 显示屏", "CNC 铝合金外壳", "可充电电池与 Wi-Fi 配置", "按项目确认的出厂固件"]},
+      "options": {"en": ["10,000 mAh battery", "Enclosure finish and mounting adaptation", "BLE, wired or PoE integration, subject to engineering review", "Customer firmware loaded at the factory"], "zh-cn": ["10,000 mAh 电池", "表面处理及安装结构适配", "BLE、有线或 PoE 集成，需工程评估", "产线烧录客户固件"]},
+      "fit": {"en": "Art displays, branded spaces and small pilot deployments", "zh-cn": "艺术展示、品牌空间、小批量试点"},
+      "delivery": {"en": "Sample and batch orders are available by quotation. Configuration, production lead time and shipping are confirmed before order acceptance.", "zh-cn": "支持样机及批量询价，配置、生产周期与运输安排在接单前确认。"},
+      "mounting": {"en": "Discuss the wall, shelf or suspended fixture before ordering. Mounting interfaces can be adapted to the project; do not assume every bracket is included.", "zh-cn": "订购前确认墙面、货架或吊装位置。安装接口可按项目适配，具体支架及配件需在报价中列明。"}
+    },
+    {
+      "model": "AES-1330V", "slug": "canvas-13-3-insert", "kind": "insert", "size": "13.3", "image": "/assets/products/canvas-13-3-insert.webp",
+      "name": {"en": "Canvas 13.3 Insert", "zh-cn": "Canvas 13.3 相框内胆"},
+      "type": {"en": "OEM frame insert", "zh-cn": "OEM 相框内胆"},
+      "description": {"en": "A 16 mm display insert for frame brands and integrators. Keep your own outer frame, mounting design and software ecosystem while sourcing the display core.", "zh-cn": "16 mm 厚的电子纸相框内胆，适合画框品牌与集成商。保留自己的外框、安装设计及软件系统，采购可集成的显示核心。"},
+      "caption": {"en": "Product outline illustration. Display area and complete insert dimensions are different.", "zh-cn": "产品外形示意图。屏幕可视区域与内胆整机尺寸不同。"},
+      "resolution": "1600 × 1200", "ratio": "4:3 / 3:4", "ppi": "150", "area": "202.8 × 270.4 mm",
+      "dimensions": {"en": "242.11 × 309.71 × 16 mm", "zh-cn": "242.11 × 309.71 × 16 mm"},
+      "power": {"en": "5,000 mAh rechargeable battery; 10,000 mAh option", "zh-cn": "5,000 mAh 可充电电池；可选 10,000 mAh"},
+      "updates": {"en": "Wi-Fi image push and TF-card image import", "zh-cn": "Wi-Fi 图片推送、TF 卡本地导入"},
+      "included": {"en": ["13.3-inch Spectra 6 display and ABS + PC insert", "Battery, control electronics and factory firmware", "USB-C charging port and TF-card slot", "Outer decorative frame is not included"], "zh-cn": ["13.3 英寸 Spectra 6 显示屏及 ABS + PC 内胆", "电池、控制电路与出厂固件", "USB-C 充电接口与 TF 卡槽", "不包含外部装饰画框"]},
+      "options": {"en": ["Outer frame color, finish and mounting design", "10,000 mAh battery", "Customer firmware and own-server integration", "Alternative communication or power configurations"], "zh-cn": ["外框颜色、表面处理及安装设计", "10,000 mAh 电池", "客户固件与自有服务器集成", "其他通信及供电配置"]},
+      "fit": {"en": "Frame brands, OEM programs and custom enclosures", "zh-cn": "画框品牌、OEM 项目、定制外壳"},
+      "delivery": {"en": "Request a standard insert sample or a project quotation. Custom outer frames, software and freight are scoped separately.", "zh-cn": "可申请标准内胆样机或项目报价；定制外框、软件与运费分别明确范围。"},
+      "mounting": {"en": "The insert has rear threaded mounting points and a keyhole slot. Confirm the mechanical drawing before designing your frame. A 13.3-inch display is not ISO A4 paper size.", "zh-cn": "背部提供螺纹安装点及挂孔，设计外框前应核对结构图。13.3 英寸显示区域并非 ISO A4 标准纸张尺寸。"}
+    },
+    {
+      "model": "AES-2850V", "slug": "canvas-a2-28-5", "kind": "display", "size": "28.5", "image": "/assets/products/canvas-a2-reference.webp",
+      "name": {"en": "Canvas A2 · 28.5", "zh-cn": "Canvas A2 · 28.5 英寸"},
+      "type": {"en": "A2-format project display", "zh-cn": "A2 海报项目屏"},
+      "description": {"en": "An A2-format color e-paper display for printed-poster replacement in hotels, galleries and retail. Specify the complete unit separately from a panel-only integration.", "zh-cn": "适合酒店、画廊与零售空间的 A2 规格彩色电子纸，用于替代低频更换的纸质海报。整机方案与裸屏集成须分别选型。"},
+      "caption": {"en": "Manufacturer enclosure illustration, not a photograph of color reproduction. Final finish is project-specific.", "zh-cn": "供应商外壳示意图，并非屏幕色彩实拍。最终外观按项目配置确认。"},
+      "resolution": "2160 × 3060", "ratio": "1:√2", "ppi": "131", "area": "418.00 × 592.17 mm",
+      "dimensions": {"en": "458 × 632.2 × 29 mm (reference configuration)", "zh-cn": "458 × 632.2 × 29 mm（参考配置）"},
+      "power": {"en": "External battery pack or mains, by configuration", "zh-cn": "按配置采用外接电池组或市电"},
+      "updates": {"en": "Remote image update workflow confirmed with the project firmware", "zh-cn": "远程换图流程按项目固件确认"},
+      "included": {"en": ["28.5-inch Spectra 6 display and controller", "Metal enclosure in the complete-unit configuration", "Power and mounting package listed in the quotation", "Software scope confirmed separately"], "zh-cn": ["28.5 英寸 Spectra 6 显示屏与控制器", "整机配置包含金属外壳", "供电与安装配件在报价中列明", "软件交付范围单独确认"]},
+      "options": {"en": ["Anti-glare cover-glass configuration", "Mains or external battery installation", "Branding and enclosure finish", "Scheduling, grouping or API integration after demonstration"], "zh-cn": ["防眩盖板配置", "市电或外接电池安装方案", "品牌标识与外壳表面处理", "定时、分组或 API 集成，先演示确认"]},
+      "fit": {"en": "Hotel lobbies, gallery information and A2 retail posters", "zh-cn": "酒店大堂、画廊信息展示、A2 零售海报"},
+      "delivery": {"en": "Project quotation. Request sample availability, the selected configuration, installation scope and a delivery schedule for your destination.", "zh-cn": "按项目报价。请询问样机情况、所选配置、安装范围及目的地对应的交付周期。"},
+      "mounting": {"en": "The display area closely matches A2 printed media. Allow for the enclosure, controller and power source when planning a wall or freestanding fixture.", "zh-cn": "可视区域接近 A2 纸张尺寸。规划壁挂或落地支架时，应为外壳、控制器及电源预留空间。"}
+    },
+    {
+      "model": "AES-3150V", "slug": "canvas-31-5", "kind": "display", "size": "31.5", "image": null,
+      "name": {"en": "Canvas 31.5", "zh-cn": "Canvas 31.5 横屏信息屏"},
+      "type": {"en": "16:9 project display", "zh-cn": "16:9 项目信息屏"},
+      "description": {"en": "A landscape color e-paper display for information boards, brand messages and low-frequency signage. Evaluate viewing distance and text size with your actual content.", "zh-cn": "适合信息板、品牌内容及低频数字标牌的横向彩色电子纸。建议用实际内容评估观看距离与文字尺寸。"},
+      "caption": {"en": "Display-area proportion diagram, not a product photograph. Enclosure finish is confirmed per project.", "zh-cn": "可视区域比例示意，并非产品照片。外壳效果按项目确认。"},
+      "resolution": "2560 × 1440", "ratio": "16:9", "ppi": "93", "area": "696.32 × 391.68 mm",
+      "dimensions": {"en": "730.2 × 428 × 20.9 mm (reference configuration)", "zh-cn": "730.2 × 428 × 20.9 mm（参考配置）"},
+      "power": {"en": "External battery pack or mains, by configuration", "zh-cn": "按配置采用外接电池组或市电"},
+      "updates": {"en": "Remote image update workflow confirmed with the project firmware", "zh-cn": "远程换图流程按项目固件确认"},
+      "included": {"en": ["31.5-inch Spectra 6 display and controller", "Metal enclosure in the complete-unit configuration", "Power and mounting package listed in the quotation", "Software scope confirmed separately"], "zh-cn": ["31.5 英寸 Spectra 6 显示屏与控制器", "整机配置包含金属外壳", "供电与安装配件在报价中列明", "软件交付范围单独确认"]},
+      "options": {"en": ["Anti-glare cover-glass configuration", "Wall or freestanding fixture", "Branding and enclosure finish", "Scheduling, grouping or API integration after demonstration"], "zh-cn": ["防眩盖板配置", "壁挂或落地支架", "品牌标识与外壳表面处理", "定时、分组或 API 集成，先演示确认"]},
+      "fit": {"en": "Landscape information boards, retail and branded interiors", "zh-cn": "横向信息展示、零售与品牌空间"},
+      "delivery": {"en": "Project quotation. Stock, sample availability and lead time are confirmed for the chosen configuration; no fixed dispatch date is implied.", "zh-cn": "按项目报价，库存、样机与交期须结合所选配置确认，不承诺未经核实的固定发货日期。"},
+      "mounting": {"en": "Native 16:9 landscape format. Check wall clearance, cable access and the external power arrangement before approving the fixture.", "zh-cn": "原生 16:9 横屏。确认支架前应核对墙面空间、接口操作空间及外部供电方式。"}
+    }
+  ]
+}

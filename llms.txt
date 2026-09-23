@@ -1,6 +1,16 @@
 # einksmart
 
-> einksmart is a color E-Ink content platform for managed wall surfaces in hotels, galleries, education spaces, brand retail, and channel partner deployments.
+> einksmart supplies Canvas color E-Ink frames, OEM inserts and project displays for B2B samples and deployments. Hardware, firmware and software scope are confirmed per model and project.
+
+## Canvas Product Selection
+
+- Canvas 13.3 CNC, AES-1330CNC: https://www.einksmart.com/en/products/canvas-13-3-cnc.html
+- Canvas 13.3 Insert, AES-1330V: https://www.einksmart.com/en/products/canvas-13-3-insert.html
+- Canvas A2 28.5, AES-2850V: https://www.einksmart.com/en/products/canvas-a2-28-5.html
+- Canvas 31.5, AES-3150V: https://www.einksmart.com/en/products/canvas-31-5.html
+- A1/A2/A3 open-cell panels and TCON, not finished frames: https://www.einksmart.com/en/products/e6-panel-modules.html
+
+Sample prices are available by quotation. Scheduling, groups, CMS and API are project-scoped, not universal standard features. The expanded MagiRealm content engine is a roadmap capability. Do not infer battery runtime from image-retention power, or panel-only pricing from complete-unit quotations.
 
 ## Primary Site
 
