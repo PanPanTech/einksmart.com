@@ -21,7 +21,9 @@ for lang in ('en', 'zh-cn'):
     style = ParagraphStyle('body', fontName=font, fontSize=10, leading=13, spaceAfter=5)
     title = ParagraphStyle('title', parent=style, fontSize=24, leading=30, spaceAfter=14, textColor=colors.HexColor('#156c67'))
     heading = ParagraphStyle('heading', parent=style, fontSize=13, leading=17, spaceBefore=9)
-    def value(v): return v[lang] if isinstance(v, dict) else str(v)
+    def value(v):
+        result=v[lang] if isinstance(v, dict) else str(v)
+        return ('待确认' if zh else 'To confirm') if result in ('TBC','To confirm') else result
     def para(v, s=style): return Paragraph(escape(value(v)), s)
     def footer(canvas, doc):
         canvas.setFont('Helvetica', 8)
@@ -29,7 +31,9 @@ for lang in ('en', 'zh-cn'):
         canvas.drawRightString(A4[0]-42, 27, str(doc.page))
     for p in data['products']:
         blocks=[para('einksmart / Canvas',heading),para(p['name'],title),para(p['model']),para(p['description'])]
-        labels=[('Supply form','交付形态','type'),('Resolution','分辨率','resolution'),('Pixel density','像素密度','ppi'),('Display area','可视区域','area'),('Enclosure','外形尺寸','dimensions'),('Power','供电','power'),('Image updates','图片更新','updates')]
+        if p.get('status'): blocks.append(para(p['status']))
+        if p.get('technology'): blocks.append(para(p['technology']))
+        labels=[('Supply form','交付形态','type'),('Resolution','分辨率','resolution'),('Pixel density (ppi)','像素密度 (ppi)','ppi'),('Display area','可视区域','area'),('Enclosure','外形尺寸','dimensions'),('Power','供电','power'),('Image updates','图片更新','updates')]
         rows=[[para(cn if zh else en),para(p[key])] for en,cn,key in labels]
         table=Table(rows,colWidths=[110,401])
         table.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LINEBELOW',(0,0),(-1,-1),.4,colors.HexColor('#d5dedb')),('TOPPADDING',(0,0),(-1,-1),7),('BOTTOMPADDING',(0,0),(-1,-1),7)]))
@@ -44,4 +48,4 @@ for lang in ('en', 'zh-cn'):
     table=Table([[para(c) for c in row] for row in rows],colWidths=[60,110,140,201]);table.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LINEBELOW',(0,0),(-1,-1),.4,colors.grey)]));blocks.append(table)
     blocks.extend([Spacer(1,18),para('包含裸屏与 TCON；不包含主机、外壳、电池、Wi-Fi 固件或 CMS。A1/A2 为独立 TCON，A3 为集成 TCON。请提供目标数量、安装空间与接口需求，结构图及接口资料按项目确认。' if zh else 'Scope covers open-cell panel and TCON. Host computer, enclosure, battery, Wi-Fi firmware and CMS are excluded. A1/A2 use separate TCON; A3 uses integrated TCON. Share target quantity, mechanical space and interface requirements. Drawings and interface documentation are confirmed for the project.'),para('价格、样品供应、认证、运输及交期按项目确认。' if zh else 'Prices, sample availability, compliance, freight and delivery are confirmed per project.'),para(f'https://www.einksmart.com/{lang}/products/e6-panel-modules.html')])
     SimpleDocTemplate(str(out/f'e6-panel-modules-{lang}.pdf'),pagesize=A4,leftMargin=42,rightMargin=42,topMargin=35,bottomMargin=48,title='Canvas E6 Panel Modules',author='einksmart').build(blocks,onFirstPage=footer,onLaterPages=footer)
-print('Generated 10 public datasheets from curated catalog data.')
+print(f'Generated {len(data["products"])*2+2} public datasheets from curated catalog data.')

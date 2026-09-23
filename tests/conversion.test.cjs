@@ -17,7 +17,7 @@ test('responsive product pages and inquiry conversion lifecycle',async()=>{
     await page.locator('img').evaluateAll(nodes=>nodes.forEach(n=>n.loading='eager'));
     await page.waitForFunction(()=>Array.from(document.images).every(n=>n.complete));
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),true,`horizontal overflow ${width} ${path}`);
-    const broken=await page.locator('img').evaluateAll(nodes=>nodes.filter(n=>!n.complete||n.naturalWidth===0).map(n=>n.src));
+    const broken=await page.locator('img[src]').evaluateAll(nodes=>nodes.filter(n=>!n.complete||n.naturalWidth===0).map(n=>n.src));
     assert.deepEqual(broken,[],`broken images ${path}`);
     if(width===390&&path==='/en/product.html'){
      await page.locator('[data-nav-toggle]').click();assert.equal(await page.locator('[data-nav-toggle]').getAttribute('aria-expanded'),'true');await page.keyboard.press('Escape');assert.equal(await page.locator('[data-nav-toggle]').getAttribute('aria-expanded'),'false');

@@ -2,6 +2,12 @@
 
 Implementation branch: `codex/canvas-inquiry-upgrade`, based on origin/main `543494a`.
 
+## Full-range and gallery follow-up
+
+The September 23 owner-supplied update expands the catalog to 13 diagonals and 14 configurations, including the dual-screen calendar, inserts, Bluetooth badges/tags and the A1/A3 displays. Product families can be filtered without a backend. Nine configurations have multiple matched image views, with thumbnail selection, keyboard navigation and a native zoom dialog. Unknown-model photos are not assigned arbitrarily. See `content/E6-SOURCE-NOTES.md` for unresolved specifications and image classification.
+
+The public PDF set now contains 30 files. After changing the catalog, run `npm run build:products`, `node scripts/sync-range-links.mjs`, the PDF builder and the sitemap script. The new gallery test checks every model in both languages at desktop and mobile widths, image selection, modal focus restoration, filters, downloads and inquiry options. No production inquiry is sent by these tests.
+
 ## Build and preview
 
 Static HTML remains deployable without a build server. Product and form templates are maintained in `scripts/site-templates.mjs` and `scripts/build-products.mjs`; approved public facts live in `content/products.json`.

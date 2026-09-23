@@ -20,4 +20,4 @@ for path in sorted((root/'assets/datasheets').glob('*.pdf')):
 sheet=Image.new('RGB',(280*4,400*((len(tiles)+3)//4)),'white')
 for i,tile in enumerate(tiles):sheet.paste(tile,((i%4)*280,(i//4)*400))
 sheet.save(out/'contact-sheet.png')
-print(f'Rendered and extracted {len(tiles)} pages across 10 PDF files.')
+print(f'Rendered and extracted {len(tiles)} pages across {len(list((root/"assets/datasheets").glob("*.pdf")))} PDF files.')

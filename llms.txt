@@ -4,13 +4,23 @@
 
 ## Canvas Product Selection
 
-- Canvas 13.3 CNC, AES-1330CNC: https://www.einksmart.com/en/products/canvas-13-3-cnc.html
-- Canvas 13.3 Insert, AES-1330V: https://www.einksmart.com/en/products/canvas-13-3-insert.html
-- Canvas A2 28.5, AES-2850V: https://www.einksmart.com/en/products/canvas-a2-28-5.html
-- Canvas 31.5, AES-3150V: https://www.einksmart.com/en/products/canvas-31-5.html
-- A1/A2/A3 open-cell panels and TCON, not finished frames: https://www.einksmart.com/en/products/e6-panel-modules.html
+- Canvas Calendar 7.5, AES-0750V (Sample / project quotation): https://www.einksmart.com/en/products/canvas-calendar-7-5.html
+- Canvas 13.3 CNC, AES-1330CNC (Sample / project quotation): https://www.einksmart.com/en/products/canvas-13-3-cnc.html
+- Canvas 13.3 Insert, AES-1330V (Sample / project quotation): https://www.einksmart.com/en/products/canvas-13-3-insert.html
+- Canvas 7.09 Insert, AES-0709V (DVT engineering sample): https://www.einksmart.com/en/products/canvas-7-09-insert.html
+- Canvas 10.1 Insert, AES-1010V (Production configuration): https://www.einksmart.com/en/products/canvas-10-1-insert.html
+- Canvas 7.3, AES-0730V (Configuration review): https://www.einksmart.com/en/products/canvas-7-3.html
+- Canvas A2 · 28.5, AES-2850V (Sample / project quotation): https://www.einksmart.com/en/products/canvas-a2-28-5.html
+- Canvas 31.5, AES-3150V (Sample / project quotation): https://www.einksmart.com/en/products/canvas-31-5.html
+- Canvas A3 · 20.2, AES-2020V (Sample; batch timing to confirm): https://www.einksmart.com/en/products/canvas-a3-20-2.html
+- Canvas A1 · 40.5, AES-4050V (Project quotation): https://www.einksmart.com/en/products/canvas-a1-40-5.html
+- Canvas 1.69 Round, AES-0169V (Sample / project quotation): https://www.einksmart.com/en/products/canvas-1-69-round.html
+- Canvas 3.7 Badge / Magnet, AES-0370V (Sample / project quotation): https://www.einksmart.com/en/products/canvas-3-7-badge.html
+- Canvas 5.89 Tag, AES-0589V (Sample schedule to confirm): https://www.einksmart.com/en/products/canvas-5-89-tag.html
+- Canvas 1.54 Module, AES-0154V (Specification confirmation): https://www.einksmart.com/en/products/canvas-1-54-module.html
+- A1/A2/A3 open-cell panels + TCON: https://www.einksmart.com/en/products/e6-panel-modules.html
 
-Sample prices are available by quotation. Scheduling, groups, CMS and API are project-scoped, not universal standard features. The expanded MagiRealm content engine is a roadmap capability. Do not infer battery runtime from image-retention power, or panel-only pricing from complete-unit quotations.
+Sample and project pricing is by quotation. 7.09-inch units are DVT engineering samples. Confirm 5.89-inch sample scheduling and A3 batch availability. 1.54-inch specifications and the 7.3-inch complete-unit configuration require review. Bluetooth devices do not inherit Wi-Fi frame features. Scheduling, CMS and APIs are not universal standard features.
 
 ## Primary Site
 
