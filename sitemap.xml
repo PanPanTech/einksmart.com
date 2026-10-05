@@ -409,4 +409,21 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.einksmart.com/en/products/canvas-1-54-module.html" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.einksmart.com/zh-cn/products/canvas-1-54-module.html" />
   </url>
+  <url>
+    <loc>https://www.einksmart.com/en/blog/insights/e-ink-frame-alternatives.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.einksmart.com/en/blog/insights/e-ink-frame-alternatives.html" />
+  </url>
+  <url>
+    <loc>https://www.einksmart.com/en/e-ink-digital-signage.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.einksmart.com/en/e-ink-digital-signage.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.einksmart.com/zh-cn/e-ink-digital-signage.html" />
+  </url>
+  <url>
+    <loc>https://www.einksmart.com/zh-cn/e-ink-digital-signage.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.einksmart.com/en/e-ink-digital-signage.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.einksmart.com/zh-cn/e-ink-digital-signage.html" />
+  </url>
 </urlset>

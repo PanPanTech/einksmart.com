@@ -631,7 +631,7 @@
       "slug": "canvas-a2-28-5",
       "kind": "display",
       "size": "28.5",
-      "image": "/assets/products/gallery/canvas-a2-28-5-photo-01.webp",
+      "image": "/assets/products/gallery/large-07.webp",
       "name": {
         "en": "Canvas A2 · 28.5",
         "zh-cn": "Canvas A2 · 28.5 英寸"
@@ -711,31 +711,17 @@
       },
       "gallery": [
         {
-          "src": "/assets/products/gallery/canvas-a2-28-5-photo-01.webp",
+          "src": "/assets/products/gallery/large-07.webp",
           "caption": {
-            "en": "28.5-inch framed sample, front view.",
-            "zh-cn": "28.5 英寸装框样品正面实拍。"
+            "en": "28.5-inch color E-Ink sign showing a retail poster at a trade show.",
+            "zh-cn": "展会现场的 28.5 英寸彩色电子纸标牌，显示零售海报。"
           }
         },
         {
-          "src": "/assets/products/gallery/canvas-a2-28-5-photo-02.webp",
+          "src": "/assets/products/gallery/large-04.webp",
           "caption": {
-            "en": "28.5-inch framed sample, alternate viewing angle.",
-            "zh-cn": "28.5 英寸装框样品另一观看角度实拍。"
-          }
-        },
-        {
-          "src": "/assets/products/gallery/canvas-a2-28-5-photo-03.webp",
-          "caption": {
-            "en": "28.5-inch framed sample, photographed indoors.",
-            "zh-cn": "28.5 英寸装框样品室内实拍。"
-          }
-        },
-        {
-          "src": "/assets/products/gallery/canvas-a2-28-5-photo-04.webp",
-          "caption": {
-            "en": "28.5-inch sample in the center, alongside smaller frames.",
-            "zh-cn": "中间为 28.5 英寸样品，两侧为小尺寸相框。"
+            "en": "28.5-inch sample (left) beside a 40.5-inch sample showing a menu.",
+            "zh-cn": "28.5 英寸样机（左）与显示菜单的 40.5 英寸样机。"
           }
         }
       ]
@@ -839,10 +825,10 @@
           }
         },
         {
-          "src": "/assets/products/gallery/canvas-31-5-photo-03.webp",
+          "src": "/assets/products/gallery/canvas-31-5-photo-04.webp",
           "caption": {
-            "en": "31.5-inch panel integration sample; exposed electronics are not a finished enclosure.",
-            "zh-cn": "31.5 英寸屏体集成样品实拍；外露电路状态非完整成品外壳。"
+            "en": "31.5-inch sample in a wood frame showing a retail promotion.",
+            "zh-cn": "木框 31.5 英寸样机，显示零售促销画面。"
           }
         }
       ]
@@ -932,20 +918,6 @@
           "caption": {
             "en": "20.2-inch framed sample, front view; confirm outer-frame configuration when ordering.",
             "zh-cn": "20.2 英寸装框样品正面实拍；外框配置需在订购时确认。"
-          }
-        },
-        {
-          "src": "/assets/products/gallery/canvas-a3-20-2-photo-02.webp",
-          "caption": {
-            "en": "20.2-inch sample displaying a portrait photograph.",
-            "zh-cn": "20.2 英寸样品显示人像照片的实拍。"
-          }
-        },
-        {
-          "src": "/assets/products/gallery/canvas-a3-20-2-photo-03.webp",
-          "caption": {
-            "en": "20.2-inch sample on the left, shown beside a smaller frame for scale.",
-            "zh-cn": "左侧为 20.2 英寸样品，旁置小尺寸相框作比例参考。"
           }
         }
       ]
@@ -1349,7 +1321,7 @@
       ]
     },
     {
-      "image": "/assets/products/gallery/canvas-1-54-module-photo-01.webp",
+      "image": "/assets/products/gallery/canvas-1-54-module-photo-02.webp",
       "caption": {
         "en": "1.54-inch sample with evaluation board; board is not a standard module inclusion.",
         "zh-cn": "1.54 英寸样品及评估板实拍；评估板不属于裸屏模组标准包含项。"
@@ -1425,13 +1397,6 @@
         "zh-cn": "穿戴、物联网及小型定制显示"
       },
       "gallery": [
-        {
-          "src": "/assets/products/gallery/canvas-1-54-module-photo-01.webp",
-          "caption": {
-            "en": "1.54-inch sample with evaluation board; board is not a standard module inclusion.",
-            "zh-cn": "1.54 英寸样品及评估板实拍；评估板不属于裸屏模组标准包含项。"
-          }
-        },
         {
           "src": "/assets/products/gallery/canvas-1-54-module-photo-02.webp",
           "caption": {

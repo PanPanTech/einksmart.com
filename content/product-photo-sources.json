@@ -158,58 +158,6 @@
       ]
     },
     {
-      "model": "AES-2850V",
-      "sourceFilename": "28.5 英寸01.jpg",
-      "asset": "/assets/products/gallery/canvas-a2-28-5-photo-01.webp",
-      "sourcePixels": [
-        1000,
-        1200
-      ],
-      "outputPixels": [
-        1000,
-        1200
-      ]
-    },
-    {
-      "model": "AES-2850V",
-      "sourceFilename": "28.5 英寸02.jpg",
-      "asset": "/assets/products/gallery/canvas-a2-28-5-photo-02.webp",
-      "sourcePixels": [
-        1000,
-        1200
-      ],
-      "outputPixels": [
-        1000,
-        1200
-      ]
-    },
-    {
-      "model": "AES-2850V",
-      "sourceFilename": "28.5英寸 03.jpg",
-      "asset": "/assets/products/gallery/canvas-a2-28-5-photo-03.webp",
-      "sourcePixels": [
-        1000,
-        1200
-      ],
-      "outputPixels": [
-        1000,
-        1200
-      ]
-    },
-    {
-      "model": "AES-2850V",
-      "sourceFilename": "28.5 英寸04.jpg",
-      "asset": "/assets/products/gallery/canvas-a2-28-5-photo-04.webp",
-      "sourcePixels": [
-        1800,
-        1200
-      ],
-      "outputPixels": [
-        1800,
-        1200
-      ]
-    },
-    {
       "model": "AES-3150V",
       "sourceFilename": "31.5 英寸02.jpg",
       "asset": "/assets/products/gallery/canvas-31-5-photo-01.webp",
@@ -236,19 +184,6 @@
       ]
     },
     {
-      "model": "AES-3150V",
-      "sourceFilename": "31.5 英寸03.jpg",
-      "asset": "/assets/products/gallery/canvas-31-5-photo-03.webp",
-      "sourcePixels": [
-        900,
-        1300
-      ],
-      "outputPixels": [
-        900,
-        1300
-      ]
-    },
-    {
       "model": "AES-2020V",
       "sourceFilename": "20.2 英寸01.jpg",
       "asset": "/assets/products/gallery/canvas-a3-20-2-photo-01.webp",
@@ -259,32 +194,6 @@
       "outputPixels": [
         1300,
         1500
-      ]
-    },
-    {
-      "model": "AES-2020V",
-      "sourceFilename": "20.2 英寸03.jpg",
-      "asset": "/assets/products/gallery/canvas-a3-20-2-photo-02.webp",
-      "sourcePixels": [
-        1000,
-        1200
-      ],
-      "outputPixels": [
-        1000,
-        1200
-      ]
-    },
-    {
-      "model": "AES-2020V",
-      "sourceFilename": "20.2 英寸02.jpg",
-      "asset": "/assets/products/gallery/canvas-a3-20-2-photo-03.webp",
-      "sourcePixels": [
-        1800,
-        1300
-      ],
-      "outputPixels": [
-        1800,
-        1300
       ]
     },
     {
@@ -388,19 +297,6 @@
       ],
       "outputPixels": [
         1450,
-        1200
-      ]
-    },
-    {
-      "model": "AES-0154V",
-      "sourceFilename": "1.54 英寸.jpg",
-      "asset": "/assets/products/gallery/canvas-1-54-module-photo-01.webp",
-      "sourcePixels": [
-        1000,
-        1200
-      ],
-      "outputPixels": [
-        1000,
         1200
       ]
     },
