@@ -13,20 +13,20 @@
   - diagram/technology*: 1800 x 1000
 */
 window.EinksmartAssets = {
-  heroCn: "../assets/images/magirealm-blue-gallery.png",
-  heroEn: "../assets/images/magirealm-blue-gallery.png",
-  diagramCn: "../assets/images/concept-cn.png",
-  diagramEn: "../assets/images/concept-en.png",
-  technologyCn: "../assets/images/technology-e6-gallery-wall.png",
-  technologyEn: "../assets/images/technology-e6-gallery-wall.png",
-  productFrame: "../assets/images/magirealm-black-frame.png",
-  scenarioHotel: "../assets/images/magirealm-living-room.png",
-  scenarioGallery: "../assets/images/magirealm-concrete-lobby.png",
-  scenarioEducation: "../assets/images/magirealm-neutral-room.png",
-  scenarioRetail: "../assets/images/magirealm-fireplace-room.png",
-  partnerVisual: "../assets/images/magirealm-material-detail.png",
-  materialDetail: "../assets/images/magirealm-material-detail.png",
-  frameEdge: "../assets/images/magirealm-frame-edge.png"
+  heroCn: "../assets/images/magirealm-blue-gallery.webp",
+  heroEn: "../assets/images/magirealm-blue-gallery.webp",
+  diagramCn: "../assets/images/concept-cn.webp",
+  diagramEn: "../assets/images/concept-en.webp",
+  technologyCn: "../assets/images/technology-e6-gallery-wall.webp",
+  technologyEn: "../assets/images/technology-e6-gallery-wall.webp",
+  productFrame: "../assets/images/magirealm-black-frame.webp",
+  scenarioHotel: "../assets/images/magirealm-living-room.webp",
+  scenarioGallery: "../assets/images/magirealm-concrete-lobby.webp",
+  scenarioEducation: "../assets/images/magirealm-neutral-room.webp",
+  scenarioRetail: "../assets/images/magirealm-fireplace-room.webp",
+  partnerVisual: "../assets/images/magirealm-material-detail.webp",
+  materialDetail: "../assets/images/magirealm-material-detail.webp",
+  frameEdge: "../assets/images/magirealm-frame-edge.webp"
 };
 
 window.MagiRealmAssets = window.EinksmartAssets;
