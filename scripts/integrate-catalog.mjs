@@ -26,7 +26,12 @@ for(const file of [...files('en'),...files('zh-cn')]) {
   for(const n of scripts.filter(n=>/\/(analytics-config|analytics|site)\.js$/.test(attr(n,'src'))))replace(n,'');
   insert(body.sourceCodeLocation.endTag.startOffset,'<script src="/assets/analytics-config.js"></script><script src="/assets/analytics.js"></script><script src="/assets/site.js"></script>\n');
   const footer=first(n=>n.tagName==='footer');
-  if(footer&&!html.includes(`/${lang}/privacy.html`))insert(footer.sourceCodeLocation.endTag.startOffset,`<div class="container footer-legal"><a href="/${lang}/privacy.html">${tr(lang,'Privacy','隐私说明')}</a></div>`);
+  if(footer&&!html.includes(`/${lang}/privacy.html`)){
+    const privacy=`<a href="/${lang}/privacy.html">${tr(lang,'Privacy','隐私说明')}</a>`;
+    const legal=nodes(n=>has(n,'footer-legal')).pop();
+    if(legal)insert(legal.sourceCodeLocation.endTag.startOffset,privacy);
+    else insert(footer.sourceCodeLocation.endTag.startOffset,`<div class="container footer-legal">${privacy}</div>`);
+  }
   if(relative==='partners.html')for(const form of nodes(n=>n.tagName==='form'))replace(form,inquiryForm(lang,true));
   if(relative==='index.html'){
     const hero=first(n=>has(n,'hero'));
