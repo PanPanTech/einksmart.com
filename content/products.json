@@ -1,5 +1,5 @@
 {
-  "revision": "2026-09-23",
+  "revision": "2026-10-14",
   "products": [
     {
       "image": "/assets/products/gallery/calendar-02.webp",
@@ -1316,6 +1316,272 @@
           "caption": {
             "en": "5.89-inch samples viewed from another angle; confirm enclosure options separately.",
             "zh-cn": "5.89 英寸样品另一角度实拍；外壳选项需另行确认。"
+          }
+        }
+      ]
+    },
+    {
+      "dimensions": {
+        "en": "178 × 70 × 138 mm (W × D × H)",
+        "zh-cn": "178 × 70 × 138 mm（长 × 宽 × 高）"
+      },
+      "power": {
+        "en": "2,000 mAh built-in battery; USB-C charging. Up to 12 months per charge in supplier lab tests at two refreshes a day",
+        "zh-cn": "内置 2,000 mAh 锂电池，Type-C 充电。供应商实验室数据：每日刷新 2 次，单次充满最长约 12 个月"
+      },
+      "updates": {
+        "en": "Bluetooth 5.3 phone app (iOS, Android, HarmonyOS), NFC tap-to-update, or a PC client through a Bluetooth gateway; runs on a local network without cloud",
+        "zh-cn": "蓝牙 5.3 手机 App（iOS、安卓、鸿蒙）、NFC 触碰更新，或经蓝牙基站由电脑客户端下发；本地局域网运行，不依赖云端"
+      },
+      "included": {
+        "en": [
+          "Double-sided desk sign with built-in battery",
+          "USB-C charging cable",
+          "Phone app with Excel attendee import, templates and batch updates"
+        ],
+        "zh-cn": [
+          "双面电子桌牌（内置电池）",
+          "Type-C 充电线",
+          "手机 App：Excel 名单导入、模板与批量下发"
+        ]
+      },
+      "delivery": {
+        "en": "Request sample availability and a configuration-specific quotation. Lead time and certification documentation are confirmed before ordering.",
+        "zh-cn": "请询问样机供应及对应配置报价，交期与认证资料在订购前确认。"
+      },
+      "status": {
+        "en": "Sample / project quotation",
+        "zh-cn": "样机 / 项目询价"
+      },
+      "kind": "sign",
+      "family": "signs",
+      "resolution": "800 × 480",
+      "ratio": "5:3",
+      "area": {
+        "en": "160 × 96 mm",
+        "zh-cn": "160 × 96 mm"
+      },
+      "type": {
+        "en": "Double-sided meeting desk sign",
+        "zh-cn": "双面会议电子桌牌"
+      },
+      "model": "AES-0730D6",
+      "slug": "canvas-desk-sign-7-3-e6",
+      "size": "7.3",
+      "ppi": "128",
+      "image": "/assets/products/gallery/desk-sign-7-3-e6-photo-01.webp",
+      "caption": {
+        "en": "Six-color desk sign with a woodgrain base showing a bilingual speaker card.",
+        "zh-cn": "木纹底座六色桌牌实拍，显示中英阿双语\"演讲嘉宾\"桌卡。"
+      },
+      "name": {
+        "en": "Canvas Desk Sign 7.3 · 6-Color",
+        "zh-cn": "Canvas 7.3 六色电子桌牌"
+      },
+      "technology": {
+        "en": "Double-sided 7.3-inch E Ink Spectra 6 (black, white, red, yellow, blue, green)",
+        "zh-cn": "双面 7.3 英寸 E Ink Spectra 6（黑、白、红、黄、蓝、绿）"
+      },
+      "description": {
+        "en": "A double-sided six-color e-paper name sign for board meetings, signing ceremonies and VIP tables. Logos and colored backgrounds stay on screen without power, and names change from a phone or PC in seconds.",
+        "zh-cn": "双面六色电子纸桌牌，用于董事会、签约仪式与贵宾席。Logo 与彩色底图断电不灭屏，可由手机或电脑在数秒内更换姓名。"
+      },
+      "fit": {
+        "en": "Board meetings, signing ceremonies, conferences and VIP tables",
+        "zh-cn": "董事会、签约仪式、会议与贵宾席"
+      },
+      "mounting": {
+        "en": "Freestanding T-shaped stand in painted ABS, silver or woodgrain. Both faces display, so the name reads from the table and from the audience. Operating temperature 0–50 °C.",
+        "zh-cn": "T 型自立底座，ABS 喷漆，银色或木纹色。双面显示，桌前与观众席均可看到姓名。工作温度 0–50 °C。"
+      },
+      "options": {
+        "en": [
+          "Silver or woodgrain finish",
+          "Bluetooth gateway for PC-managed rooms (about 30 m line of sight)",
+          "Background artwork at 800 × 480 using only the six panel colors",
+          "Custom templates, logos and third-party system integration by project"
+        ],
+        "zh-cn": [
+          "银色或木纹色外观",
+          "蓝牙基站：电脑统一管理会议室（无遮挡约 30 米）",
+          "背景图按 800 × 480 制作，只使用六色面板色",
+          "定制模板、Logo 及第三方系统对接按项目确认"
+        ]
+      },
+      "gallery": [
+        {
+          "src": "/assets/products/gallery/desk-sign-7-3-e6-photo-01.webp",
+          "caption": {
+            "en": "Woodgrain base, bilingual speaker card in green and white.",
+            "zh-cn": "木纹底座，绿白配色的双语演讲嘉宾桌卡。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/desk-sign-7-3-e6-photo-02.webp",
+          "caption": {
+            "en": "Silver base with a reserved-table card using green and yellow.",
+            "zh-cn": "银色底座，绿黄配色的预留席位桌卡。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/desk-sign-7-3-e6-photo-03.webp",
+          "caption": {
+            "en": "Signing-ceremony name card on the woodgrain base.",
+            "zh-cn": "木纹底座的签约仪式姓名桌卡。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/desk-sign-7-3-e6-photo-04.webp",
+          "caption": {
+            "en": "Reserved VIP table card on the woodgrain base.",
+            "zh-cn": "木纹底座的贵宾预留桌卡。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/desk-sign-7-3-e6-photo-05.webp",
+          "caption": {
+            "en": "Silver base viewed from the side.",
+            "zh-cn": "银色底座侧面角度实拍。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/desk-sign-7-3-e6-photo-06.webp",
+          "caption": {
+            "en": "Signing-ceremony card on the silver base.",
+            "zh-cn": "银色底座的签约仪式桌卡。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/desk-sign-7-3-e6-template.webp",
+          "caption": {
+            "en": "Template artwork at 800 × 480 in the six-color palette, before it is sent to the sign.",
+            "zh-cn": "六色调色板下的 800 × 480 模板原图（下发前）。"
+          }
+        }
+      ]
+    },
+    {
+      "dimensions": {
+        "en": "178 × 70 × 138 mm (W × D × H)",
+        "zh-cn": "178 × 70 × 138 mm（长 × 宽 × 高）"
+      },
+      "power": {
+        "en": "2,000 mAh built-in battery; USB-C charging. Up to 12 months per charge in supplier lab tests at two refreshes a day",
+        "zh-cn": "内置 2,000 mAh 锂电池，Type-C 充电。供应商实验室数据：每日刷新 2 次，单次充满最长约 12 个月"
+      },
+      "updates": {
+        "en": "Bluetooth 5.3 phone app (iOS, Android, HarmonyOS), NFC tap-to-update, or a PC client through a Bluetooth gateway; runs on a local network without cloud",
+        "zh-cn": "蓝牙 5.3 手机 App（iOS、安卓、鸿蒙）、NFC 触碰更新，或经蓝牙基站由电脑客户端下发；本地局域网运行，不依赖云端"
+      },
+      "included": {
+        "en": [
+          "Double-sided desk sign with built-in battery",
+          "USB-C charging cable",
+          "Phone app with Excel attendee import, templates and batch updates"
+        ],
+        "zh-cn": [
+          "双面电子桌牌（内置电池）",
+          "Type-C 充电线",
+          "手机 App：Excel 名单导入、模板与批量下发"
+        ]
+      },
+      "delivery": {
+        "en": "Request sample availability and a configuration-specific quotation. Lead time and certification documentation are confirmed before ordering.",
+        "zh-cn": "请询问样机供应及对应配置报价，交期与认证资料在订购前确认。"
+      },
+      "status": {
+        "en": "Sample / project quotation",
+        "zh-cn": "样机 / 项目询价"
+      },
+      "kind": "sign",
+      "family": "signs",
+      "resolution": "800 × 480",
+      "ratio": "5:3",
+      "area": {
+        "en": "160 × 96 mm",
+        "zh-cn": "160 × 96 mm"
+      },
+      "type": {
+        "en": "Double-sided meeting desk sign",
+        "zh-cn": "双面会议电子桌牌"
+      },
+      "model": "AES-0750D4",
+      "slug": "canvas-desk-sign-7-5-4c",
+      "size": "7.5",
+      "ppi": "125",
+      "image": "/assets/products/gallery/desk-sign-7-5-4c-photo-01.webp",
+      "caption": {
+        "en": "Four-color desk sign on a silver base showing a red name card.",
+        "zh-cn": "银色底座四色桌牌实拍，显示红色姓名桌卡。"
+      },
+      "name": {
+        "en": "Canvas Desk Sign 7.5 · 4-Color",
+        "zh-cn": "Canvas 7.5 四色电子桌牌"
+      },
+      "technology": {
+        "en": "Double-sided 7.5-inch four-color e-paper (black, white, red, yellow)",
+        "zh-cn": "双面 7.5 英寸四色电子纸（黑、白、红、黄）"
+      },
+      "description": {
+        "en": "A double-sided black, white, red and yellow e-paper name sign for meeting rooms and events. Strong red and yellow accents for names and titles, with the same phone, NFC and PC update workflow as the six-color model.",
+        "zh-cn": "双面黑白红黄四色电子纸桌牌，用于会议室与活动现场。红黄强调色突出姓名与职务，手机、NFC 与电脑的更新流程与六色款相同。"
+      },
+      "fit": {
+        "en": "Meeting rooms, training sessions, events and name cards",
+        "zh-cn": "会议室、培训、活动与姓名桌卡"
+      },
+      "mounting": {
+        "en": "Freestanding T-shaped stand in painted ABS, silver or woodgrain. Both faces display, so the name reads from the table and from the audience. Operating temperature 0–40 °C.",
+        "zh-cn": "T 型自立底座，ABS 喷漆，银色或木纹色。双面显示，桌前与观众席均可看到姓名。工作温度 0–40 °C。"
+      },
+      "options": {
+        "en": [
+          "Silver or woodgrain finish",
+          "Bluetooth gateway for PC-managed rooms (about 30 m line of sight)",
+          "Background artwork at 800 × 480 using only the four panel colors",
+          "Custom templates, logos and third-party system integration by project"
+        ],
+        "zh-cn": [
+          "银色或木纹色外观",
+          "蓝牙基站：电脑统一管理会议室（无遮挡约 30 米）",
+          "背景图按 800 × 480 制作，只使用四色面板色",
+          "定制模板、Logo 及第三方系统对接按项目确认"
+        ]
+      },
+      "gallery": [
+        {
+          "src": "/assets/products/gallery/desk-sign-7-5-4c-photo-01.webp",
+          "caption": {
+            "en": "Red name card on the silver base, front view.",
+            "zh-cn": "银色底座红色姓名桌卡，正面。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/desk-sign-7-5-4c-photo-02.webp",
+          "caption": {
+            "en": "Black VIP guest card with a yellow accent.",
+            "zh-cn": "黑底黄色点缀的贵宾桌卡。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/desk-sign-7-5-4c-photo-03.webp",
+          "caption": {
+            "en": "Red name card viewed from the side.",
+            "zh-cn": "红色姓名桌卡侧面角度。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/desk-sign-7-5-4c-photo-04.webp",
+          "caption": {
+            "en": "VIP guest card viewed from the side.",
+            "zh-cn": "贵宾桌卡侧面角度。"
+          }
+        },
+        {
+          "src": "/assets/products/gallery/desk-sign-7-5-4c-template.webp",
+          "caption": {
+            "en": "Template artwork at 800 × 480 in the four-color palette, before it is sent to the sign.",
+            "zh-cn": "四色调色板下的 800 × 480 模板原图（下发前）。"
           }
         }
       ]

@@ -16,14 +16,14 @@ const groups = [
   { id:'retail', slugs:['canvas-31-5','canvas-a2-28-5'],
     title:['Retail, campus and information boards','零售、园区与信息公告板'],
     body:['Promotions, wayfinding, menus and notices that update a few times a day rather than every few seconds. Choose the landscape 31.5″ where a TV-shaped board is expected, or A2 for portrait posters.','适合一天更新几次、而非每隔几秒滚动的促销、导视、菜单与通知。需要横向“电视比例”的位置选 31.5″，竖版海报选 A2。'] },
-  { id:'rooms', slugs:['canvas-5-89-tag','canvas-3-7-badge','canvas-calendar-7-5'],
-    title:['Door signs, room labels and desks','门牌、房间标识与桌面'],
-    body:['Small magnetic tags and badges for room names, door signs and staff identification, plus a dual-screen desk calendar for reception counters. These update over Bluetooth from a phone app.','小尺寸磁吸标签与工牌，用于房间名、门牌与员工标识；双屏桌面日历适合前台。这些型号通过手机 App 蓝牙更新。'] },
+  { id:'rooms', slugs:['canvas-desk-sign-7-3-e6','canvas-desk-sign-7-5-4c','canvas-5-89-tag','canvas-3-7-badge','canvas-calendar-7-5'],
+    title:['Meeting desks, door signs and room labels','会议桌牌、门牌与房间标识'],
+    body:['Double-sided desk signs for meetings and signing ceremonies, small magnetic tags and badges for room names and staff identification, and a dual-screen calendar for reception counters. Desk signs update by phone, NFC tap or a PC gateway; tags and badges over Bluetooth from a phone app.','双面电子桌牌用于会议与签约仪式；小尺寸磁吸标签与工牌用于房间名与员工标识；双屏桌面日历适合前台。桌牌可通过手机、NFC 触碰或电脑基站更新，标签与工牌通过手机 App 蓝牙更新。'] },
   { id:'art', slugs:['canvas-13-3-cnc'],
     title:['Art walls and branded interiors','艺术墙与品牌空间'],
     body:['A finished 13.3″ aluminium frame for rotating artwork, brand imagery and small pilot deployments, with Wi-Fi image push and TF-card import.','13.3″ 铝合金成品画框，用于轮换艺术作品、品牌画面与小批量试点，支持 Wi-Fi 推送与 TF 卡导入图片。'] },
 ];
-const tableModels = pick('canvas-a1-40-5','canvas-a2-28-5','canvas-a3-20-2','canvas-31-5','canvas-13-3-cnc','canvas-5-89-tag','canvas-calendar-7-5');
+const tableModels = pick('canvas-a1-40-5','canvas-a2-28-5','canvas-a3-20-2','canvas-31-5','canvas-13-3-cnc','canvas-desk-sign-7-3-e6','canvas-5-89-tag','canvas-calendar-7-5');
 
 const faqs = [
   ['Can color E-Ink signage play video or animation?','彩色电子纸标牌能播放视频或动画吗？',

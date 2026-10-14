@@ -60,7 +60,7 @@ export function specRows(p,lang) {
 }
 
 export function catalogGroups(lang){
- const groups=[['all','All products','全部产品'],['frames','Frames & inserts','相框与内胆'],['displays','Project displays','商用大屏'],['tags','Badges & tags','工牌与标签'],['modules','Components','显示组件']];
+ const groups=[['all','All products','全部产品'],['frames','Frames & inserts','相框与内胆'],['displays','Project displays','商用大屏'],['tags','Badges & tags','工牌与标签'],['signs','Desk & meeting signs','会议桌牌'],['modules','Components','显示组件']];
  return `<div data-product-catalog><div class="catalog-filters" role="group" aria-label="${tr(lang,'Product category','产品分类')}">${groups.map(([id,en,zh])=>`<button type="button" data-catalog-filter="${id}" aria-pressed="${id==='all'}">${tr(lang,en,zh)}</button>`).join('')}</div><p class="catalog-results" data-catalog-results aria-live="polite">${products.length} ${tr(lang,'configurations','款配置')}</p>${groups.slice(1).map(([id,en,zh])=>`<section class="catalog-family" data-catalog-family="${id}"><div class="section-head"><h2>${tr(lang,en,zh)}</h2></div><div class="catalog-grid">${products.filter(p=>p.family===id).map(p=>card(p,lang)).join('')}</div></section>`).join('')}</div>`;
 }
 
