@@ -56,7 +56,7 @@ Sample and project pricing is by quotation. 7.09-inch units are DVT engineering 
 - Color E-Ink vs LCD Digital Signage: https://www.einksmart.com/en/blog/insights/color-eink-vs-lcd-digital-signage.html
 - E-Paper Frame vs Digital Photo Frame: https://www.einksmart.com/en/blog/insights/epaper-frame-vs-digital-photo-frame.html
 - Best Color E-Ink Photo Frames 2026: https://www.einksmart.com/en/blog/insights/best-color-e-ink-photo-frames-2026.html
-- E-Ink Picture Frames Explained: https://www.einksmart.com/en/blog/insights/e-ink-picture-frames-explained.html
+- E-Ink Picture Frame Guide 2026 (How E-Ink Photo Frames Work): https://www.einksmart.com/en/blog/insights/e-ink-picture-frames-explained.html
 - Best Frame TV Alternatives 2026: 7 Cordless Picks, No Subscription: https://www.einksmart.com/en/blog/insights/frame-tv-alternatives.html
 - E-Ink Display Sizes 2026: Every Large Panel, 7.3" to 75": https://www.einksmart.com/en/blog/insights/large-e-ink-displays-compared.html
 - Why Are E-Ink Art Frames So Expensive (Cost Breakdown): https://www.einksmart.com/en/blog/insights/why-e-ink-frames-expensive.html
@@ -66,6 +66,7 @@ Sample and project pricing is by quotation. 7.09-inch units are DVT engineering 
 - E-Ink Frame Aspect Ratio and Crop: Fit Photos Without Bad Crops: https://www.einksmart.com/en/blog/insights/e-ink-frame-aspect-ratio-crop.html
 - The Digital Art Frame App Checklist: 12 Things to Test Before You Buy: https://www.einksmart.com/en/blog/insights/digital-art-frame-app-checklist.html
 - Hotel Lobby Content Wall Playbook: https://www.einksmart.com/en/blog/case-studies/hotel-lobby-content-wall-playbook.html
+- Why We Built the einksmart Color E-Ink Content Platform: https://www.einksmart.com/en/blog/news/einksmart-launches-b2b-content-platform.html
 
 ## AI Crawler Policy
 
