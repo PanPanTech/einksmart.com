@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 420" width="980" height="420" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">E-Ink panel shapes compared with common photo shapes</title>
+  <desc id="d">Top row: einksmart panel shapes at equal height, 5:3, 4:3, ISO A-series 1.414 to 1 and 16:9. Bottom row: common file shapes, 4:3 phone photos, 3:2 camera photos, 16:9 video frames and 4:5 social posts.</desc>
+  <rect width="980" height="420" fill="#ffffff"/>
+  <text x="40" y="40" font-size="17" font-weight="700" fill="#14211d">einksmart panels (shown landscape, equal height)</text>
+  <g font-size="13" fill="#14211d">
+    <rect x="40" y="58" width="200" height="120" fill="#e3efe9" stroke="#1f7a68" stroke-width="2.5"/>
+    <text x="40" y="200" font-weight="700">5:3 · 1.67</text><text x="40" y="218" fill="#5b6762">7.3" (800 × 480)</text>
+    <rect x="268" y="58" width="160" height="120" fill="#e3efe9" stroke="#1f7a68" stroke-width="2.5"/>
+    <text x="268" y="200" font-weight="700">4:3 · 1.33</text><text x="268" y="218" fill="#5b6762">7.09", 10.1", 13.3"</text>
+    <rect x="456" y="58" width="170" height="120" fill="#e3efe9" stroke="#1f7a68" stroke-width="2.5"/>
+    <text x="456" y="200" font-weight="700">A-series · 1.41</text><text x="456" y="218" fill="#5b6762">20.2", 28.5", 40.5"</text>
+    <rect x="654" y="58" width="213" height="120" fill="#e3efe9" stroke="#1f7a68" stroke-width="2.5"/>
+    <text x="654" y="200" font-weight="700">16:9 · 1.78</text><text x="654" y="218" fill="#5b6762">31.5" (2560 × 1440)</text>
+  </g>
+  <text x="40" y="262" font-size="17" font-weight="700" fill="#14211d">Your files</text>
+  <g font-size="13" fill="#14211d">
+    <rect x="40" y="280" width="107" height="80" fill="#f6efe2" stroke="#b9853f" stroke-width="2.5"/>
+    <text x="40" y="382" font-weight="700">4:3 · 1.33</text><text x="40" y="400" fill="#5b6762">Most phone photos</text>
+    <rect x="200" y="280" width="120" height="80" fill="#f6efe2" stroke="#b9853f" stroke-width="2.5"/>
+    <text x="200" y="382" font-weight="700">3:2 · 1.50</text><text x="200" y="400" fill="#5b6762">Most cameras</text>
+    <rect x="372" y="280" width="142" height="80" fill="#f6efe2" stroke="#b9853f" stroke-width="2.5"/>
+    <text x="372" y="382" font-weight="700">16:9 · 1.78</text><text x="372" y="400" fill="#5b6762">Video frames, some phones</text>
+    <rect x="580" y="280" width="64" height="80" fill="#f6efe2" stroke="#b9853f" stroke-width="2.5"/>
+    <text x="580" y="382" font-weight="700">4:5 · 0.80</text><text x="580" y="400" fill="#5b6762">Portrait social posts</text>
+    <rect x="740" y="280" width="80" height="80" fill="#f6efe2" stroke="#b9853f" stroke-width="2.5"/>
+    <text x="740" y="382" font-weight="700">1:1</text><text x="740" y="400" fill="#5b6762">Square posts</text>
+  </g>
+</svg>

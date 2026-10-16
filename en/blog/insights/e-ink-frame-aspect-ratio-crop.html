@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>E-Ink Frame Aspect Ratio: Fit Photos Without Bad Crops</title>
+    <meta name="description" content="Why E-Ink frames crop photos, how much each panel shape keeps, and how to prepare portrait and landscape images so nothing important is cut off." />
+    <link rel="canonical" href="https://www.einksmart.com/en/blog/insights/e-ink-frame-aspect-ratio-crop.html" />
+    <link rel="alternate" hreflang="en" href="https://www.einksmart.com/en/blog/insights/e-ink-frame-aspect-ratio-crop.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="E-Ink Frame Aspect Ratio: Fit Photos Without Bad Crops" />
+    <meta property="og:description" content="Why E-Ink frames crop photos, how much each panel shape keeps, and how to prepare portrait and landscape images so nothing important is cut off." />
+    <meta property="og:url" content="https://www.einksmart.com/en/blog/insights/e-ink-frame-aspect-ratio-crop.html" />
+    <meta property="og:image" content="https://www.einksmart.com/assets/blog/e-ink-frame-mona-lisa-a-series.webp" />
+    <meta property="og:image:alt" content="A colour E-Ink panel in a wooden frame with a white mat displaying the Mona Lisa" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="E-Ink Frame Aspect Ratio: Fit Photos Without Bad Crops" />
+    <meta name="twitter:description" content="Why E-Ink frames crop photos, how much each panel shape keeps, and how to prepare portrait and landscape images so nothing important is cut off." />
+    <meta name="twitter:image" content="https://www.einksmart.com/assets/blog/e-ink-frame-mona-lisa-a-series.webp" />
+    <link rel="icon" href="/assets/brand/google-search-icon-512.png" type="image/png" sizes="512x512" />
+    <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="icon" href="/assets/brand/favicon-16.png" type="image/png" sizes="16x16" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon-180.png" sizes="180x180" />
+    <link rel="stylesheet" href="../../../assets/styles.css" />
+    <style>
+      .aspect-crop-hero .article-hero-visual {
+        aspect-ratio: 4 / 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #eef1ed;
+      }
+
+      .aspect-crop-hero .article-hero-visual img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+      }
+
+      .article-hero-grid h1,
+      .article-hero .breadcrumbs .current {
+        display: block;
+        max-width: 100%;
+        overflow-wrap: anywhere;
+        word-break: normal;
+      }
+
+      .aspect-crop-hero {
+        box-sizing: border-box;
+        margin: 0;
+        max-width: 100%;
+        min-width: 0;
+      }
+
+      @media (max-width: 919px) {
+        .article-hero .page-title {
+          width: calc(100% - 36px);
+          max-width: 330px;
+          margin: 0 auto;
+          overflow-x: hidden;
+        }
+
+        .article-hero-grid {
+          grid-template-columns: minmax(0, 1fr);
+          max-width: 330px;
+        }
+
+        .article-hero-grid > *,
+        .aspect-crop-hero,
+        .aspect-crop-hero .article-hero-visual {
+          box-sizing: border-box;
+          width: 100%;
+          max-width: 100%;
+          min-width: 0;
+        }
+
+        .aspect-crop-hero .article-hero-visual img {
+          max-width: 100%;
+          max-height: 100%;
+        }
+
+        .article-hero .breadcrumbs .current {
+          display: none;
+        }
+
+        .mobile-title-break {
+          display: block;
+        }
+
+        .article-meta,
+        .article-layout,
+        .article-body,
+        .article-body > section,
+        .toc,
+        .related-content,
+        .article-share {
+          box-sizing: border-box;
+          max-width: 100%;
+          overflow-wrap: anywhere;
+        }
+
+        .article-layout {
+          width: calc(100% - 36px);
+          max-width: 330px;
+          margin-right: auto;
+          margin-left: auto;
+        }
+      }
+
+      @media (max-width: 520px) {
+        .article-hero {
+          overflow-x: hidden;
+        }
+
+        .article-hero .page-title,
+        .article-hero-grid,
+        .article-hero-grid > *,
+        .aspect-crop-hero {
+          max-width: 100%;
+          min-width: 0;
+        }
+
+        .article-hero .page-title {
+          width: calc(100% - 36px);
+          margin: 0 auto;
+        }
+
+        .article-hero-grid,
+        .article-hero-grid > *,
+        .aspect-crop-hero {
+          width: 100%;
+        }
+
+        .article-hero-grid h1 {
+          max-width: calc(100vw - 36px);
+          font-size: clamp(26px, 8vw, 32px);
+          line-height: 1.14;
+          word-break: break-word;
+        }
+
+        .article-hero .breadcrumbs {
+          max-width: calc(100vw - 36px);
+          overflow-wrap: anywhere;
+        }
+      }
+    
+    </style>
+    <script src="/assets/blog-toc.js" defer></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Portrait, Landscape and Crop: How to Make Photos Fit an E-Ink Frame","description":"Why colour E-Ink frames crop photos, how much of a 4:3, 3:2 or 16:9 file each panel shape keeps, and how to prepare portrait and landscape images so nothing important is cut off.","datePublished":"2026-10-15","dateModified":"2026-10-15","inLanguage":"en","wordCount":2276,"author":{"@type":"Organization","name":"einksmart"},"publisher":{"@type":"Organization","name":"einksmart"},"image":"https://www.einksmart.com/assets/blog/e-ink-frame-mona-lisa-a-series.webp","mainEntityOfPage":"https://www.einksmart.com/en/blog/insights/e-ink-frame-aspect-ratio-crop.html"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.einksmart.com/en/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.einksmart.com/en/blog/"},{"@type":"ListItem","position":3,"name":"Insights","item":"https://www.einksmart.com/en/blog/insights/"},{"@type":"ListItem","position":4,"name":"E-Ink Frame Aspect Ratio","item":"https://www.einksmart.com/en/blog/insights/e-ink-frame-aspect-ratio-crop.html"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why does my E-Ink frame crop my photos?","acceptedAnswer":{"@type":"Answer","text":"Because the panel has a fixed shape and your photo has a different one. To fill the screen, the software must cut the overflow. Crop the file to the panel ratio yourself, or switch to fit mode, to keep control of what is lost."}},{"@type":"Question","name":"What aspect ratio should I export for an E-Ink frame?","acceptedAnswer":{"@type":"Answer","text":"Export to the panel's exact pixel size: for example 1600 x 1200 for a 4:3 13.3-inch panel hung landscape, or 2160 x 3060 for an A2 panel hung portrait."}},{"@type":"Question","name":"Can I show landscape photos on a portrait E-Ink frame?","acceptedAnswer":{"@type":"Answer","text":"Only by fitting them with large bands or losing about half the picture. A landscape 4:3 photo filled onto a portrait panel keeps 56.3%. Hang the frame landscape, if the hardware and software support it, or choose portrait images for that frame."}},{"@type":"Question","name":"Does turning the frame sideways rotate the picture?","acceptedAnswer":{"@type":"Answer","text":"Not by itself. The pixel grid does not change. The frame needs an orientation sensor or setting, and the app must rotate each image. Test it before relying on it."}},{"@type":"Question","name":"Is fit mode with white bands acceptable on ePaper?","acceptedAnswer":{"@type":"Answer","text":"Usually yes. Colour ePaper white is paper-white, so light bands look like a print margin or mat rather than television letterboxing. It is often the best choice for paintings and posters."}},{"@type":"Question","name":"Do I need high-resolution photos for an E-Ink frame?","acceptedAnswer":{"@type":"Answer","text":"Less than you might expect. A 13.3-inch panel at 1600 x 1200 shows 1.9 megapixels, and even a 40.5-inch A1 panel shows 13.2 megapixels. Composition and crop matter more than extra pixels."}}]}</script>
+  <link rel="stylesheet" href="/assets/catalog.css" />
+</head>
+  <body>
+<header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="/en/"><img class="brand-logo" src="/assets/brand/header-lockup.svg" width="210" height="44" alt="einksmart" /></a><div class="nav-links" id="main-nav"><a href="/en/">Home</a><a href="/en/product.html">Products</a><a href="/en/solutions.html">Solutions</a><a href="/en/technology.html">Technology</a><a href="/en/partners.html">Partners</a><a class="active" aria-current="page" href="/en/blog/">Blog</a><a href="/en/contact.html">Contact</a></div><div class="nav-actions"><a class="lang-link" href="/zh-cn/blog/">中文</a><a class="btn teal" data-analytics="quote_click" data-placement="header" href="/en/contact.html?model=&intent=quote#inquiry">Get a Quote</a><button class="nav-toggle" type="button" data-nav-toggle aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation" title="Navigation"><img src="/assets/icons/menu.svg" width="22" height="22" alt="" /></button></div></nav></header>
+    <main>
+      <section class="article-hero">
+<div class="page-title">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+<a href="../../">Home</a>
+<span class="sep">/</span>
+<a href="../">Blog</a>
+<span class="sep">/</span>
+<a href="./">Insights</a>
+<span class="sep">/</span>
+<span class="current">E-Ink Frame Aspect Ratio</span>
+</nav>
+        <div class="article-hero-grid">
+          <div>
+<span class="tag">Insights</span>
+<h1>Portrait, Landscape <span class="mobile-title-break">and Crop:</span> <span class="mobile-title-break">How to Make Photos</span> <span class="mobile-title-break">Fit an E-Ink Frame</span></h1>
+<p class="article-meta">Published October 15, 2026 &middot; einksmart Insights &middot; 10 min read</p>
+</div>
+          <figure class="article-hero-media aspect-crop-hero">
+<div class="article-hero-visual">
+<img src="/assets/blog/e-ink-frame-mona-lisa-a-series.webp" width="900" height="1200" alt="A colour E-Ink panel in a wooden frame with a white mat displaying the Mona Lisa" fetchpriority="high" />
+</div>
+<figcaption>A real colour E-Ink frame from the einksmart image archive. The Mona Lisa is about 1.45:1; an A-series panel is 1.41:1, so filling the screen trims only about 3% of the painting. Photograph: einksmart.</figcaption>
+</figure>
+        </div>
+      </div>
+</section>
+      <section class="section"><div class="container article-layout">
+        <article class="article-body">
+          <section class="answer-summary" id="answer">
+<h2>Short answer</h2>
+<p>
+<strong>An E-Ink frame has a fixed pixel grid with a fixed shape, so any photo whose shape differs must either be cropped to fill the screen or shown whole with bands around it.</strong> A 3:2 camera photo on a 4:3 panel loses about 11% of its width when filled. A landscape photo forced onto a portrait panel loses nearly half of the picture. Fix it before upload: crop each file to the panel&rsquo;s exact ratio yourself, choose deliberately between fit and fill, and test that the frame and app genuinely honour landscape orientation before you rely on it.</p>
+</section>
+
+          <section class="key-facts" id="facts">
+<h2>Key facts</h2>
+<ul>
+            <li>Common E-Ink frame panels are 4:3 (1.33), ISO A-series (1.41), 5:3 (1.67) or 16:9 (1.78). Phone photos are usually 4:3; camera photos are usually 3:2.</li>
+            <li>The share of a photo you keep when filling a screen is simply the smaller ratio divided by the larger one.</li>
+            <li>A landscape 4:3 photo filled onto a portrait 3:4 panel keeps 56.3% of the picture. A 3:2 photo keeps 50%.</li>
+            <li>Rotating a frame on the wall does not rotate the pixel grid. The software must rotate the image, and that is worth testing before purchase.</li>
+            <li>On paper-white ePaper, white bands from &ldquo;fit&rdquo; mode look like a mat, not like black bars on a TV.</li>
+          </ul>
+</section>
+
+          <section id="why">
+<h2>Why your photo gets cropped</h2>
+<p>
+<strong>Every panel has a resolution, and the resolution fixes its shape.</strong> A 13.3-inch colour E-Ink panel at 1600 &times; 1200 pixels is exactly 4:3. Your photograph has its own shape: a phone camera usually records 4:3, most interchangeable-lens cameras record 3:2, video stills are 16:9, and portrait social posts are often 4:5. When the two shapes differ, the frame software has only two honest options. It can enlarge the image until the screen is full and cut away what spills over, or it can shrink the image until it all fits and leave empty bands.</p>
+<p>There is no third option that keeps every pixel and fills the screen, other than stretching the image, which distorts faces and buildings. A good frame app tells you which mode it is using and lets you choose. A weak one decides silently.</p>
+          <figure>
+<img src="/assets/blog/e-ink-frame-fit-fill-orientation.svg" width="980" height="430" loading="lazy" alt="Three diagrams showing a 3:2 photo filled onto a 4:3 panel, the same photo fitted with bands, and a landscape photo cropped on a portrait panel" />
+<figcaption>Fill, fit and the orientation trap. Kept share is the smaller ratio divided by the larger one. Diagram: einksmart.</figcaption>
+</figure>
+<p>The arithmetic is simple enough to do before you buy. Write both shapes as long side divided by short side. Divide the smaller number by the larger: that is the fraction of the long edge you keep when filling the screen, or the fraction of the screen your picture uses when fitting it. A 3:2 photo (1.50) on a 4:3 panel (1.33) gives 1.33 &divide; 1.50 = 88.9%.</p>
+</section>
+
+          <section id="shapes">
+<h2>Panel shapes against the files you actually have</h2>
+<p>
+<strong>Colour E-Ink frames do not share one standard shape.</strong> Smaller frames tend to use 4:3 or 5:3 panels. Large poster formats increasingly follow ISO A-series paper, where the long side is &radic;2 &asymp; 1.414 times the short side. That ratio is why an A2 panel matches A2 paper and standard poster frames. A 16:9 panel behaves like a television screen.</p>
+          <figure>
+<img src="/assets/blog/e-ink-panel-vs-photo-aspect-ratios.svg" width="980" height="420" loading="lazy" alt="Diagram comparing einksmart panel shapes 5:3, 4:3, A-series and 16:9 with common photo shapes 4:3, 3:2, 16:9, 4:5 and square" />
+<figcaption>Panel shapes (top) against common file shapes (bottom), drawn at equal height. Diagram: einksmart.</figcaption>
+</figure>
+<p>The table uses the resolutions published for our own Canvas range. The viewing area is calculated from the nominal diagonal and the pixel ratio, so treat it as an approximation and confirm the active area on the datasheet before cutting a mat. The three right-hand columns show how much of each file type survives if you fill the screen in the matching orientation.</p>
+          <div class="table-scroll"><table class="table-lite">
+            <tr>
+<th scope="col">Panel</th>
+<th scope="col">Pixels</th>
+<th scope="col">Ratio</th>
+<th scope="col">Approx. viewing area</th>
+<th scope="col">4:3 phone photo kept</th>
+<th scope="col">3:2 camera photo kept</th>
+<th scope="col">16:9 frame kept</th>
+</tr>
+            <tr><td>Canvas 7.3</td><td>800 &times; 480</td><td>5:3 (1.67)</td><td>15.9 &times; 9.5 cm</td><td>80.0%</td><td>90.0%</td><td>93.8%</td></tr>
+            <tr><td>Canvas 7.09 Insert</td><td>1200 &times; 1600</td><td>3:4 (1.33)</td><td>14.4 &times; 10.8 cm</td><td>100%</td><td>88.9%</td><td>75.0%</td></tr>
+            <tr><td>Canvas 10.1 Insert</td><td>1600 &times; 1200</td><td>4:3 (1.33)</td><td>20.5 &times; 15.4 cm</td><td>100%</td><td>88.9%</td><td>75.0%</td></tr>
+            <tr><td>Canvas 13.3 CNC / Insert</td><td>1600 &times; 1200</td><td>4:3 (1.33)</td><td>27.0 &times; 20.3 cm</td><td>100%</td><td>88.9%</td><td>75.0%</td></tr>
+            <tr><td>Canvas A3 20.2</td><td>1530 &times; 2160</td><td>A-series (1.41)</td><td>41.9 &times; 29.7 cm</td><td>94.4%</td><td>94.1%</td><td>79.4%</td></tr>
+            <tr><td>Canvas A2 28.5</td><td>2160 &times; 3060</td><td>A-series (1.42)</td><td>59.1 &times; 41.7 cm</td><td>94.1%</td><td>94.4%</td><td>79.7%</td></tr>
+            <tr><td>Canvas 31.5</td><td>2560 &times; 1440</td><td>16:9 (1.78)</td><td>69.7 &times; 39.2 cm</td><td>75.0%</td><td>84.4%</td><td>100%</td></tr>
+            <tr><td>Canvas A1 40.5</td><td>3060 &times; 4320</td><td>A-series (1.41)</td><td>83.9 &times; 59.5 cm</td><td>94.4%</td><td>94.1%</td><td>79.4%</td></tr>
+          </table></div>
+<p>Two patterns stand out. <strong>A-series panels are the most forgiving general-purpose shape</strong>, because 1.41 sits between phone photos (1.33) and camera photos (1.50), so either loses only about 6%. And <strong>4:3 panels are perfect for phone photos but noticeably crop camera photos</strong>. If most of your library comes from a camera, that 11% matters more than a small difference in diagonal size. For the full size range, including formats beyond our own, see <a href="./large-e-ink-displays-compared.html">our large E-Ink display comparison</a>.</p>
+</section>
+
+          <section id="orientation">
+<h2>The orientation trap: landscape photos on a portrait frame</h2>
+<p>
+<strong>The most damaging crop is not a small ratio difference; it is the wrong orientation.</strong> A landscape 4:3 photo filled onto a portrait 3:4 panel keeps 56.3% of the picture. A landscape 3:2 photo keeps 50%. A 16:9 frame keeps 42%. That is not trimming the edges. It removes most of the scene.</p>
+<p>Buyers notice. In a public comment archive from five colour E-Ink frame crowdfunding projects, captured on June 19, 2026, one buyer reported that every landscape photo uploaded was &ldquo;cropped and shown in portrait mode&rdquo;, even after selecting landscape in the app, and asked to return the frame. Another reported that playlists reverted to portrait after a reset. Other commenters in the same projects said both orientations were supported. That mix is the point: orientation depends on hardware, app and firmware working together, so it should be tested rather than assumed.</p>
+          <h3>Rotating the frame is not enough</h3>
+<p>
+<strong>Turning a frame on the wall changes how you see the panel, not how the panel addresses its pixels.</strong> The pixel grid stays where it was manufactured. To show a landscape picture on a frame hung landscape, the software has to know the new orientation and rotate each image before rendering it. Some frames detect this with a sensor; others rely on a setting; some support only one orientation in practice. The physical frame also matters: one buyer found that a frame hung level in portrait but tilted in landscape, because its internal weight was uneven. Ask whether the hanging hardware supports both directions.</p>
+          <h3>A two-minute orientation test</h3>
+<ol>
+            <li>Prepare one landscape and one portrait image with an obvious marker in each corner, such as the numbers 1 to 4.</li>
+            <li>Upload both with the frame hung portrait. Note which corners are visible.</li>
+            <li>Rotate the frame, change the orientation setting if there is one, and repeat.</li>
+            <li>Restart the frame and check that the setting and playlist survive.</li>
+          </ol>
+<p>If a corner marker disappears without the app offering a choice, you have found the frame&rsquo;s real behaviour. We include this in our <a href="./digital-art-frame-app-checklist.html">digital art frame app checklist</a>.</p>
+</section>
+
+          <section id="fit-fill">
+<h2>Fit or fill: which looks better on ePaper?</h2>
+<p>
+<strong>On a backlit screen, fit mode produces black bars that look like a mistake. On colour ePaper, fit mode often looks deliberate.</strong> A colour E-Ink panel&rsquo;s white is paper-white, about 34% reflectance, so white bands around a fitted image read like the margin of a print. Inside a frame with a mat, they extend the mat inward. We explain why the panel white behaves this way in <a href="./what-color-e-ink-looks-like.html">what colour E-Ink actually looks like</a>.</p>
+<p>Fill mode suits photographs with a strong subject in the middle and loose edges: landscapes, textures and most travel photos. Fit mode suits images where the edges carry meaning: paintings, posters with type, group photos and anything with a signature in the corner. For artwork, a good rule is: <strong>never fill a painting</strong>. A composition was designed to its edges, and fitting it with a soft border respects that.</p>
+          <div class="table-scroll"><table class="table-lite">
+            <tr>
+<th scope="col">Image</th>
+<th scope="col">Best mode</th>
+<th scope="col">Why</th>
+</tr>
+            <tr><td>Paintings and drawings</td><td>Fit, light band</td><td>The artist composed to the edge; bands read as a mat</td></tr>
+            <tr><td>Posters and anything with text</td><td>Fit</td><td>Cropping cuts letters, logos and margins</td></tr>
+            <tr><td>Group and family photos</td><td>Fit, or a manual crop</td><td>Automatic fill cuts the people at each end</td></tr>
+            <tr><td>Landscapes and cityscapes</td><td>Fill, manual crop</td><td>Edges are rarely essential; a full screen feels immersive</td></tr>
+            <tr><td>Close-up portraits</td><td>Fill, manual crop</td><td>Keep headroom; automatic centre crops often cut the top of the head</td></tr>
+          </table></div>
+<p>A painting example makes the numbers concrete. The Mona Lisa measures about 77 &times; 53 cm, a ratio of about 1.45. On an A-series panel (1.41) it can fill the screen by giving up only about 3% of its height. On a 4:3 panel it would lose about 8%. That small difference is why the A-series shape is so well suited to art reproduction.</p>
+</section>
+
+          <section id="prepare">
+<h2>How to prepare a photo so the frame does not crop it for you</h2>
+<p>
+<strong>The reliable method is to crop each file to the panel&rsquo;s exact pixel size before uploading, so the frame has nothing left to decide.</strong> Automatic cropping usually takes the centre, which is often not where the subject is.</p>
+<ol>
+            <li>
+<strong>Find the panel resolution and orientation.</strong> For example, 1600 &times; 1200 for a 13.3-inch frame hung landscape, or 2160 &times; 3060 for an A2 frame hung portrait.</li>
+            <li>
+<strong>Crop to that ratio.</strong> Most phone photo editors offer 4:3, 3:2 and 16:9 presets. For A-series panels, use a custom ratio or pixel size in a desktop editor such as GIMP or Photopea, both of which allow a fixed crop ratio.</li>
+            <li>
+<strong>Place the subject, not the centre.</strong> Keep faces in the upper third and leave a little space in the direction a person or animal is looking.</li>
+            <li>
+<strong>Resize to the exact pixel dimensions.</strong> A modern phone photo has far more pixels than any frame needs. The 13.3-inch panel shows 1.9 megapixels; even the A1 40.5-inch panel shows 13.2. Downsizing in a good editor is usually better than leaving the frame to do it.</li>
+            <li>
+<strong>Export as JPEG in sRGB.</strong> Use high quality. Avoid unusual colour profiles that the frame software may not read.</li>
+            <li>
+<strong>Keep the originals.</strong> Store uncropped files outside the frame app. You may want a different crop on a different frame later.</li>
+          </ol>
+          <h3>Panoramas and very wide photos</h3>
+<p>A 3:1 panorama on any of these panels either becomes a narrow strip or loses most of its width. Two better answers: choose a section of it that works as a picture on its own, or split it across two or three frames hung side by side. A pair of 4:3 panels hung landscape gives a combined 8:3 area, close to many phone panoramas, at the cost of a visible gap between frames.</p>
+</section>
+
+          <section id="mats">
+<h2>Mats, frames and the active area</h2>
+<p>
+<strong>A mat is cut to the panel&rsquo;s active area, not its diagonal.</strong> Diagonal size is a convenient name; the dimension that matters for framing is the width and height of the area that shows pixels, plus any inactive border around it. If the mat window is larger than the active area, a strip of inactive panel shows. If it is smaller, the mat covers image edges, which is another crop.</p>
+<p>When a frame claims compatibility with standard retail frames, check three numbers: the outer panel size, the active area and the depth of the electronics behind it. Ask for them in millimetres. The viewing areas in our table are calculated values; we confirm the final active-area and outer dimensions with each project quotation.</p>
+</section>
+
+          <section id="buy">
+<h2>What to check before you buy</h2>
+<ul>
+            <li>
+<strong>Which shape does the panel use?</strong> Compare it with where most of your photos come from: phone, camera or both.</li>
+            <li>
+<strong>Can you choose fit or fill per image?</strong> One global setting is not enough for a mixed library of paintings and photographs.</li>
+            <li>
+<strong>Can you move the crop?</strong> Look for pan and zoom before upload, not just a centre crop.</li>
+            <li>
+<strong>Does landscape really work?</strong> Run the corner-marker test above on the exact model and app version.</li>
+            <li>
+<strong>Does the setting survive a restart?</strong> Orientation and playlist settings should not revert.</li>
+            <li>
+<strong>Are the dimensions published?</strong> Ask for active area and outer size in millimetres before ordering mats or frames.</li>
+          </ul>
+<p>einksmart supplies hardware and content workflows for projects, so we have a commercial interest in this subject. The arithmetic applies to every frame, including ours: test it on the model you intend to buy.</p>
+</section>
+
+          <section id="faq">
+<h2>FAQ</h2>
+<div class="faq">
+            <details>
+<summary>Why does my E-Ink frame crop my photos?</summary>
+<p>Because the panel has a fixed shape and your photo has a different one. To fill the screen, the software must cut the overflow. Crop the file to the panel ratio yourself, or switch to fit mode, to keep control of what is lost.</p>
+</details>
+            <details>
+<summary>What aspect ratio should I export for an E-Ink frame?</summary>
+<p>Export to the panel&rsquo;s exact pixel size: for example 1600 &times; 1200 for a 4:3 13.3-inch panel hung landscape, or 2160 &times; 3060 for an A2 panel hung portrait.</p>
+</details>
+            <details>
+<summary>Can I show landscape photos on a portrait E-Ink frame?</summary>
+<p>Only by fitting them with large bands or losing about half the picture. A landscape 4:3 photo filled onto a portrait panel keeps 56.3%. Hang the frame landscape, if the hardware and software support it, or choose portrait images for that frame.</p>
+</details>
+            <details>
+<summary>Does turning the frame sideways rotate the picture?</summary>
+<p>Not by itself. The pixel grid does not change. The frame needs an orientation sensor or setting, and the app must rotate each image. Test it before relying on it.</p>
+</details>
+            <details>
+<summary>Is fit mode with white bands acceptable on ePaper?</summary>
+<p>Usually yes. Colour ePaper white is paper-white, so light bands look like a print margin or mat rather than television letterboxing. It is often the best choice for paintings and posters.</p>
+</details>
+            <details>
+<summary>Do I need high-resolution photos for an E-Ink frame?</summary>
+<p>Less than you might expect. A 13.3-inch panel at 1600 &times; 1200 shows 1.9 megapixels, and even a 40.5-inch A1 panel shows 13.2 megapixels. Composition and crop matter more than extra pixels.</p>
+</details>
+          </div>
+</section>
+
+
+          <section class="related-content related-guides">
+<h2>Related guides</h2>
+<ul>
+<li>
+<a href="./large-e-ink-displays-compared.html">Large E-Ink displays compared, from 7.3 to 75 inches</a>
+</li>
+<li>
+<a href="./what-color-e-ink-looks-like.html">What colour E-Ink actually looks like on your wall</a>
+</li>
+<li>
+<a href="./digital-art-frame-app-checklist.html">The digital art frame app checklist: 12 things to test</a>
+</li>
+<li>
+<a href="/en/products/canvas-a2-28-5.html">Canvas A2 28.5&quot; poster frame</a>
+</li>
+</ul>
+</section>
+          <section id="next">
+<h2>Next step</h2>
+            <div class="article-cta">
+<a class="btn teal" href="../../contact.html">Ask for panel dimensions</a>
+<a class="btn secondary" href="../../product.html">Compare Canvas models</a>
+</div>
+            <div class="related-grid">
+              <a class="card article-card" href="./large-e-ink-displays-compared.html">
+<div class="article-card-media">
+<img class="article-card-image" src="/assets/blog/color-eink-poster-retail-promotion.jpg" width="1000" height="1000" loading="lazy" alt="A large-format colour E-Ink poster display in a wooden frame" />
+</div>
+<div class="article-card-body">
+<span class="tag">Insights</span>
+<h3>Large E-Ink displays: every size compared</h3>
+<p>From 7.3-inch frames to 75-inch panels, with the formats most buyers never find.</p>
+<span class="btn secondary">Read Insight</span>
+</div>
+</a>
+              <a class="card article-card" href="./what-color-e-ink-looks-like.html">
+<div class="article-card-media">
+<img class="article-card-image" src="/assets/blog/color-eink-wall-real-display.webp" width="760" height="380" loading="lazy" alt="Colour E-Paper frames showing artwork and photography at a product booth" />
+</div>
+<div class="article-card-body">
+<span class="tag">Insights</span>
+<h3>What colour E-Ink looks like</h3>
+<p>Dithering, paper-white and room light: what to expect before it is on your wall.</p>
+<span class="btn secondary">Read Insight</span>
+</div>
+</a>
+              <a class="card article-card" href="./e-ink-picture-frames-explained.html">
+<div class="article-card-media">
+<img class="article-card-image" src="/assets/blog/e-ink-picture-frames-living-room.jpg" width="1500" height="1125" loading="lazy" alt="Two E-Ink picture frames displaying colour artwork in a living room" />
+</div>
+<div class="article-card-body">
+<span class="tag">Insights</span>
+<h3>E-Ink picture frames explained</h3>
+<p>How reflective frames work, why they look like paper, and what to check before buying.</p>
+<span class="btn secondary">Read Insight</span>
+</div>
+</a>
+            </div>
+          </section>
+          <section class="article-share" data-article-share aria-labelledby="article-share-title">
+            <div>
+              <p class="share-label" id="article-share-title">Share this article</p>
+              <p class="share-note">Send this guide to your team or save the canonical link.</p>
+            </div>
+            <div class="share-buttons" aria-label="Share this article">
+            <a class="share-button facebook" href="#" data-share-channel="facebook" target="_blank" rel="noopener" aria-label="Share on Facebook"><span class="share-icon" aria-hidden="true">f</span><span class="share-text">Facebook</span></a>
+            <a class="share-button linkedin" href="#" data-share-channel="linkedin" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><span class="share-icon" aria-hidden="true">in</span><span class="share-text">LinkedIn</span></a>
+            <a class="share-button x" href="#" data-share-channel="x" target="_blank" rel="noopener" aria-label="Share on X"><span class="share-icon" aria-hidden="true">X</span><span class="share-text">X</span></a>
+            <a class="share-button pinterest" href="#" data-share-channel="pinterest" target="_blank" rel="noopener" aria-label="Share on Pinterest"><span class="share-icon" aria-hidden="true">P</span><span class="share-text">Pinterest</span></a>
+            <a class="share-button whatsapp" href="#" data-share-channel="whatsapp" target="_blank" rel="noopener" aria-label="Share on WhatsApp"><span class="share-icon" aria-hidden="true">WA</span><span class="share-text">WhatsApp</span></a>
+            <a class="share-button telegram" href="#" data-share-channel="telegram" target="_blank" rel="noopener" aria-label="Share on Telegram"><span class="share-icon" aria-hidden="true">TG</span><span class="share-text">Telegram</span></a>
+            <a class="share-button vk" href="#" data-share-channel="vk" target="_blank" rel="noopener" aria-label="Share on VK"><span class="share-icon" aria-hidden="true">VK</span><span class="share-text">VK</span></a>
+            <a class="share-button email" href="#" data-share-channel="email" aria-label="Share by email"><span class="share-icon" aria-hidden="true">@</span><span class="share-text">Email</span></a>
+              <button type="button" class="share-button copy" data-share-action="copy" data-copied-label="Copied" aria-label="Copy article link"><span class="share-icon" aria-hidden="true">URL</span><span class="share-text">Copy link</span></button>
+              <button type="button" class="share-button native" data-share-action="native" aria-label="Share this article"><span class="share-icon" aria-hidden="true">+</span><span class="share-text">Share</span></button>
+            </div>
+          </section>
+        </article>
+        <aside class="toc" data-toc><button class="toc-toggle" type="button" aria-expanded="false" aria-controls="toc-links">On this page</button><nav class="toc-links" id="toc-links" aria-label="On this page">
+<a href="#answer">Short answer</a>
+<a href="#facts">Key facts</a>
+<a href="#why">Why photos get cropped</a>
+<a href="#shapes">Panel shapes vs files</a>
+<a href="#orientation">The orientation trap</a>
+<a href="#fit-fill">Fit or fill</a>
+<a href="#prepare">Prepare your photos</a>
+<a href="#mats">Mats and active area</a>
+<a href="#buy">Check before you buy</a>
+<a href="#faq">FAQ</a>
+<a href="#next">Next step</a>
+</nav></aside>
+      </div></section>
+    </main>
+<footer class="site-footer"><div class="container footer-grid"><div><div class="brand"><img class="brand-logo" src="/assets/brand/footer-lockup.svg" alt="einksmart Color E-Ink Content Platform" width="210" height="44" loading="lazy" /></div><p>Insights for managed color E-Ink content surfaces.</p></div><div class="footer-links"><strong>Blog</strong><a href="../">Blog</a><a href="./">Insights</a><a href="../case-studies/">Case Studies</a><a href="../news/">News</a></div><div class="footer-links"><strong>Site</strong><a href="../../product.html">Product</a><a href="../../solutions.html">Solutions</a><a href="../../sitemap.html">Sitemap</a></div><div class="footer-contact"><strong>Contact</strong><a href="mailto:info@einksmart.com">info@einksmart.com</a><span>Building A1, Yuexiu iPARK Yuegang Zhigu, Nansha District, Guangzhou, Guangdong Province, China</span></div></div><div class="container footer-brand-row" aria-label="PanPanTech Group brands"><span><a href="https://www.panpantechnology.com" target="_blank" rel="noopener">PanPanTech&reg;</a> &mdash; Group Site</span><span><a href="https://www.aieinksmart.com" target="_blank" rel="noopener">AiEInkSmart&trade;</a> &mdash; Electronic Shelf Labels</span><span><a href="https://www.pyroglaux.com" target="_blank" rel="noopener">Pyroglaux&reg;</a> &mdash; Footfall Analytics</span><span><a href="https://www.aiesl.com" target="_blank" rel="noopener">AiESL&trade;</a> &mdash; Retail Data Platform</span></div><div class="container footer-legal"><span>&copy; 2026 EinkSmart&trade; | The Color E-Ink Content Platform of PanPanTech&reg; | Guangzhou PanPanTech Co., Ltd. All Rights Reserved.</span><a href="/en/privacy.html">Privacy</a></div></footer>
+
+<script src="/assets/analytics-config.js"></script><script src="/assets/analytics.js"></script><script src="/assets/site.js"></script>
+</body>
+</html>

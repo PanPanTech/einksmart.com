@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 430" width="980" height="430" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Fill, fit and wrong orientation on an E-Ink frame</title>
+  <desc id="d">Three diagrams. A 3:2 photo filling a 4:3 panel loses 11 percent of its width. Fitted, it leaves bands covering 11 percent of the screen. A 4:3 landscape photo forced to fill a portrait 3:4 panel keeps only 56 percent of the picture.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#f3e7e2"/>
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#c9826b" stroke-width="2.4"/>
+    </pattern>
+    <linearGradient id="photo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fc1cf"/>
+      <stop offset=".55" stop-color="#d7e3d2"/>
+      <stop offset=".56" stop-color="#7f9a63"/>
+      <stop offset="1" stop-color="#5d7a49"/>
+    </linearGradient>
+  </defs>
+  <rect width="980" height="430" fill="#ffffff"/>
+
+  <!-- 1. Fill -->
+  <g transform="translate(40 58)">
+    <text x="0" y="-22" font-size="17" font-weight="700" fill="#14211d">1 · Fill (crop to fit)</text>
+    <rect x="-15" y="0" width="270" height="180" fill="url(#hatch)"/>
+    <rect x="0" y="0" width="240" height="180" fill="url(#photo)"/>
+    <circle cx="180" cy="48" r="16" fill="#f1d27a"/>
+    <rect x="0" y="0" width="240" height="180" fill="none" stroke="#14211d" stroke-width="3"/>
+    <text x="0" y="214" font-size="14" fill="#14211d">3:2 photo on a 4:3 panel</text>
+    <text x="0" y="236" font-size="14" fill="#14211d"><tspan font-weight="700">Keeps 88.9%</tspan> of the width.</text>
+    <text x="0" y="258" font-size="14" fill="#5b6762">Hatched edges are cut off.</text>
+  </g>
+
+  <!-- 2. Fit -->
+  <g transform="translate(360 58)">
+    <text x="0" y="-22" font-size="17" font-weight="700" fill="#14211d">2 · Fit (show everything)</text>
+    <rect x="0" y="0" width="240" height="180" fill="#f4f1ea"/>
+    <rect x="0" y="10" width="240" height="160" fill="url(#photo)"/>
+    <circle cx="186" cy="52" r="15" fill="#f1d27a"/>
+    <rect x="0" y="0" width="240" height="180" fill="none" stroke="#14211d" stroke-width="3"/>
+    <text x="0" y="214" font-size="14" fill="#14211d">Same photo, nothing removed</text>
+    <text x="0" y="236" font-size="14" fill="#14211d"><tspan font-weight="700">11.1% of the screen</tspan> becomes bands.</text>
+    <text x="0" y="258" font-size="14" fill="#5b6762">White bands read as a mat on paper-white ePaper.</text>
+  </g>
+
+  <!-- 3. Wrong orientation -->
+  <g transform="translate(700 30)">
+    <text x="0" y="6" font-size="17" font-weight="700" fill="#14211d">3 · Wrong orientation</text>
+    <g transform="translate(0 28)">
+      <rect x="-70" y="0" width="320" height="240" fill="url(#hatch)"/>
+      <rect x="0" y="0" width="180" height="240" fill="url(#photo)"/>
+      <rect x="0" y="0" width="180" height="240" fill="none" stroke="#14211d" stroke-width="3"/>
+      <text x="0" y="272" font-size="14" fill="#14211d">4:3 landscape on a 3:4 portrait panel</text>
+      <text x="0" y="294" font-size="14" fill="#14211d"><tspan font-weight="700">Keeps only 56.3%</tspan> of the picture.</text>
+      <text x="0" y="316" font-size="14" fill="#5b6762">Rotate the frame or the file, not the crop.</text>
+    </g>
+  </g>
+
+  <text x="40" y="412" font-size="12" fill="#5b6762">Percentages are geometric: kept share = shorter ratio ÷ longer ratio. Diagram: einksmart.</text>
+</svg>
