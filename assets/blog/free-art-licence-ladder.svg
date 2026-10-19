@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 400" width="980" height="400" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Image licences from most to least permissive for a digital frame</title>
+  <desc id="d">Five steps. Public domain and CC0: display at home or in a business, no credit required. CC BY: any use with credit. CC BY-SA: any use with credit, and edited versions share the same licence. Non-commercial licences: home use only. All rights reserved: licence or permission needed.</desc>
+  <rect width="980" height="400" fill="#ffffff"/>
+  <text x="40" y="38" font-size="17" font-weight="700" fill="#14211d">Can I put this image on my frame?</text>
+  <g font-size="14">
+    <g transform="translate(40 60)">
+      <rect width="170" height="250" rx="6" fill="#d9eee6" stroke="#1f7a68" stroke-width="2"/>
+      <text x="14" y="32" font-weight="700" fill="#14211d">Public domain</text>
+      <text x="14" y="52" font-weight="700" fill="#14211d">CC0</text>
+      <text x="14" y="96" fill="#14211d">Home: yes</text>
+      <text x="14" y="120" fill="#14211d">Lobby or shop: yes</text>
+      <text x="14" y="144" fill="#14211d">Credit: optional</text>
+      <text x="14" y="168" fill="#14211d">Edit or crop: yes</text>
+      <text x="14" y="226" font-size="12" fill="#5b6762">Best choice</text>
+    </g>
+    <g transform="translate(225 80)">
+      <rect width="170" height="230" rx="6" fill="#e6f1ec" stroke="#4f9a85" stroke-width="2"/>
+      <text x="14" y="32" font-weight="700" fill="#14211d">CC BY</text>
+      <text x="14" y="76" fill="#14211d">Home: yes</text>
+      <text x="14" y="100" fill="#14211d">Lobby or shop: yes</text>
+      <text x="14" y="124" fill="#14211d">Credit: required</text>
+      <text x="14" y="148" fill="#14211d">Edit or crop: yes</text>
+    </g>
+    <g transform="translate(410 100)">
+      <rect width="170" height="210" rx="6" fill="#f1f3ec" stroke="#8aa38f" stroke-width="2"/>
+      <text x="14" y="32" font-weight="700" fill="#14211d">CC BY-SA</text>
+      <text x="14" y="76" fill="#14211d">Home: yes</text>
+      <text x="14" y="100" fill="#14211d">Lobby or shop: yes</text>
+      <text x="14" y="124" fill="#14211d">Credit: required</text>
+      <text x="14" y="148" fill="#14211d">Edits: same licence</text>
+    </g>
+    <g transform="translate(595 120)">
+      <rect width="170" height="190" rx="6" fill="#f8efe1" stroke="#b9853f" stroke-width="2"/>
+      <text x="14" y="32" font-weight="700" fill="#14211d">Any “NC” licence</text>
+      <text x="14" y="76" fill="#14211d">Home: yes</text>
+      <text x="14" y="100" fill="#14211d">Lobby or shop: no</text>
+      <text x="14" y="124" fill="#14211d">Credit: required</text>
+    </g>
+    <g transform="translate(780 140)">
+      <rect width="160" height="170" rx="6" fill="#f6e3dd" stroke="#c0654b" stroke-width="2"/>
+      <text x="14" y="32" font-weight="700" fill="#14211d">All rights</text>
+      <text x="14" y="52" font-weight="700" fill="#14211d">reserved</text>
+      <text x="14" y="96" fill="#14211d">Needs a licence</text>
+      <text x="14" y="120" fill="#14211d">or permission</text>
+    </g>
+  </g>
+  <text x="40" y="350" font-size="12" fill="#5b6762">Simplified. Copyright licences do not clear trademarks or the rights of identifiable people in an image. ND licences forbid sharing edited versions.</text>
+  <text x="40" y="370" font-size="12" fill="#5b6762">Displaying in a business can count as commercial use; use public domain or CC0 when unsure. Not legal advice. Diagram: einksmart.</text>
+</svg>
