@@ -1584,3 +1584,17 @@ textarea {
     padding: 28px;
   }
 }
+
+.article-product-pick {
+  margin: 22px 0;
+  padding: 20px 22px;
+  border: 1px solid var(--line);
+  border-left: 4px solid rgba(20, 110, 104, .7);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.article-product-pick h2 { font-size: 1.15rem; margin: 0 0 8px; }
+.article-product-pick p { margin: 0 0 10px; }
+.article-product-pick ul { margin: 0 0 14px; padding-left: 20px; }
+.article-product-pick li { margin: 4px 0; }
