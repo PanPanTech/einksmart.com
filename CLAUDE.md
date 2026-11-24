@@ -57,8 +57,9 @@
 - GA4（11-02 ~ 11-23）：936 会话；Organic 493（互动 1 分 10 秒）、Direct 434（互动 12 秒，疑似机器人/内部）、AI Assistant 4、Referral 4；**关键事件 0**，3 周内没有 generate_lead / inquiry_start，只有 14 次 quote_click、/en/contact.html 31 次浏览。
 - TODO：在 GA4 确认 `generate_lead` 已标记为关键事件（事件从未触发过，可能还没出现在列表里）；Direct 流量加内部/机器人过滤。
 - TODO：`/`（203 曝光）是 JS/meta-refresh 跳 `/en/`，GSC 仍单独计；`/en/contact.html`、`canvas-1-54-module` 平均排名 31。
-- 未合并分支：origin/cursor/enable-ga4-a696（已由 #9 等价进 main，可删）；origin/agent/footer-* 4 个（7 月，各 1 提交、落后 55+，大概率已被替代）；本地 `publish-colour-eink-wall`（1 个未推送提交：替换博客卡片图片，4 文件）。均待用户确认。
-- 本地有 3 个 prunable worktree 记录（目录已不存在），可 `git worktree prune`。
+- GA4 新版界面不能为"从未触发过"的事件预先建关键事件：`generate_lead` 首次出现在「近期事件」后，要在 管理 → 数据显示 → 事件 里点星号标记（2026-11-24 时只有 purchase）。
+- 2026-11-24 已清理：删除远端 cursor/enable-ga4-a696 和 3 个 agent/footer-*（只留最新的 agent/footer-external-new-tab-2026-07），删除本地已合并分支、prune worktree，旧克隆 `_footer_sites\einksmart.com*` 已移到回收站。本地 `publish-colour-eink-wall`（1 个未推送提交：替换博客卡片图片）待用户看预览后决定。
+- 曾有 bug：`en/solutions.html`、`zh-cn/solutions.html` 的「内容更新」区块排在页首 hero 之前（PR #11 修复）。
 
 ## 工作流
 - 新改动开分支 `seo/<主题>-<MMDD>` 或 `post/<slug>-<MMDD>`，经用户确认后合并 main；一次只动相关文件。
